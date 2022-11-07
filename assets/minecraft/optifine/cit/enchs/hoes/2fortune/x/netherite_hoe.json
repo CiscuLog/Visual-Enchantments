@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/hoes/netherite_hoe",
+  "textures": {
+	"top": "item/tools/fortune",
+	"sticktop": "item/tools/fortune"
+	}
+}

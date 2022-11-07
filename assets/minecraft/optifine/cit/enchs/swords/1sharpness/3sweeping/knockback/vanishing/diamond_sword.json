@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/vanishing/diamond_sword",
+	"base2": "item/diamond_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/diamond",
+	"grip": "item/sword/knockback",
+	"guard": "#grip"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent":"minecraft:item/crossbow/multishot_crossbow_pulling_1",
+	"textures": {
+		"base": "item/crossbow/unbreakingvanishing",
+		"quick_charge": "item/crossbow/quick_charge2",
+		"string2": "#quick_charge"
+	}
+}

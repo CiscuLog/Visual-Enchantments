@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/iron_sword",
+  "textures": {
+	"base": "item/sword/bane/loot/iron_sword",
+	"fire": "item/sword/fire1",
+	"grip": "item/sword/knockback",
+	"orb1": "#grip",
+	"ring1": "#grip",
+	"guard": "#grip"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/hoes/wooden_hoe",
+  "textures": {
+	"base": "item/tools/vanishing/wooden_hoe"
+	}
+}

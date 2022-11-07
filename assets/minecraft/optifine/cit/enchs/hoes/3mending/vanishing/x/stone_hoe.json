@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/hoes/stone_hoe",
+  "textures": {
+	"base": "item/tools/vanishing/stone_hoe",
+	"stickbottom": "item/tools/mending"
+	}
+}

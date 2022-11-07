@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/swords/diamond_sword",
+  "textures": {
+	"base": "item/sword/looting/vanishing/diamond_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/diamond",
+	"grip": "item/sword/knockbackunbreaking",
+	"guard": "#grip",
+	"bottom": "item/sword/mending"
+	}
+}

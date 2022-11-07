@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/shovels/iron_shovel",
+  "textures": {
+	"head": "item/tools/silk_touchshovel",
+	"efficiencytop": "#head",
+	"bottom": "item/tools/mending",
+	"stick": "item/tools/unbreakingshovel"
+	}
+}

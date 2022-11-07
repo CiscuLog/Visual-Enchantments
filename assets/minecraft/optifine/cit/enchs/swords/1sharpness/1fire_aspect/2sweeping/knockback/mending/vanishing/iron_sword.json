@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/vanishing/iron_sword",
+	"base2": "item/iron_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/iron",
+	"fire": "item/sword/firelarge1",
+	"grip": "item/sword/knockback",
+	"guard": "#grip",
+	"bottom": "item/sword/mending"
+	}
+}

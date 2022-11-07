@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/pickaxes/wooden_pickaxe",
+  "textures": {
+	"base": "item/tools/vanishing/wooden_pickaxe",
+	"top": "item/tools/fortune",
+	"sticktop": "item/tools/fortune",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

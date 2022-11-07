@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/pickaxe",
+  "textures": {
+	"base": "item/iron_pickaxe"
+	}
+}

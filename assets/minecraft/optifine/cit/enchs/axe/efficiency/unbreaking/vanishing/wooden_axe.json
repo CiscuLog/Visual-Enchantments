@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/axe",
+  "textures": {
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency",
+	"base": "item/tools/vanishing/wooden_axe",
+	"stick": "item/tools/unbreaking"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/bane/vanishing/iron_sword",
+	"base2": "item/sword/bane/iron_sword",
+	"fire": "item/sword/firelarge1"
+	}
+}

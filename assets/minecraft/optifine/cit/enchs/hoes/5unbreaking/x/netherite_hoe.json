@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/hoes/netherite_hoe",
+  "textures": {
+	"stick": "item/tools/unbreaking"
+	}
+}

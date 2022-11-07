@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"base": "item/tools/bane/vanishing/iron_axe",
+	"sticktop": "item/tools/silk_touchaxe",
+	"orb": "#sticktop",
+	"efficiencytop": "#sticktop",
+	"efficiency": "item/tools/efficiency",
+	"stick": "item/tools/unbreaking",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

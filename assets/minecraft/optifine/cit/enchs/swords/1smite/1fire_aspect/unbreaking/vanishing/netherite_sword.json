@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/swords/netherite_sword",
+  "textures": {
+	"base": "item/sword/smite/vanishing/netherite_sword",
+	"orb2": "item/sword/orbs/skeletonfa2",
+	"fire": "item/sword/fire2",
+	"grip": "item/sword/unbreaking"
+	}
+}

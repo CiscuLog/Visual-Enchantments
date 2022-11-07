@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorboots",
+  "textures": {
+	"0": "./gold_layer_1"
+	}
+}

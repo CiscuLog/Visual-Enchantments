@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/hoes/netherite_hoe",
+  "textures": {
+	"top": "item/tools/silk_touch",
+	"sticktop": "item/tools/silk_touch",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

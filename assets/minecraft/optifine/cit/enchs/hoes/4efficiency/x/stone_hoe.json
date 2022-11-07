@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/hoes/stone_hoe",
+  "textures": {
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

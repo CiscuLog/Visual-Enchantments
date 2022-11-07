@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/bows/bow_pulling_1",
+  "textures": {
+	"tip": "item/bow/power",
+	"tip2": "item/bow/infinity",
+	"punch": "item/bow/punch",
+	"arrow": "item/bow/arrow_infinipunch"
+	}
+}

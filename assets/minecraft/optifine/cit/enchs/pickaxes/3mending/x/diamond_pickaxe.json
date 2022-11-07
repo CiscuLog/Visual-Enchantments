@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/pickaxes/diamond_pickaxe",
+  "textures": {
+	"stickbottom": "item/tools/mending"
+	}
+}

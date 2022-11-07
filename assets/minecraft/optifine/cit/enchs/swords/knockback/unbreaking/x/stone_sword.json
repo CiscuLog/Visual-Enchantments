@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/swords/stone_sword",
+  "textures": {
+	"grip": "item/sword/knockbackunbreaking",
+	"orb1": "#grip",
+	"ring1": "#grip",
+	"guard": "#grip"
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pickaxes/wooden_pickaxe",
+  "textures": {
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

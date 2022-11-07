@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/axes/wooden_axe",
+  "textures": {
+	"base": "item/tools/vanishing/wooden_axe",
+	"stick": "item/tools/unbreaking",
+	"sticktop2": "item/tools/rings/wood",
+	"orb": "item/tools/rings/smite",
+	"ring": "#sticktop2",
+	"ring2": "#ring"
+	}
+}

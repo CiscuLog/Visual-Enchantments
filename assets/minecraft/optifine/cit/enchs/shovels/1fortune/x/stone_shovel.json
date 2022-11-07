@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/shovels/stone_shovel",
+  "textures": {
+	"head": "item/tools/fortuneshovel",
+	"efficiencytop": "#head"
+	}
+}

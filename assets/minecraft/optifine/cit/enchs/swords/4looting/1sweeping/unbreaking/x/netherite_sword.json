@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/loot/netherite_sword",
+	"base2": "item/sword/base/netherite_sword",
+	"grip": "item/sword/unbreaking"
+	}
+}

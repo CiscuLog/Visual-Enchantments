@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/hoes/stone_hoe",
+  "textures": {
+	"base": "item/tools/vanishing/stone_hoe",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency",
+	"stickbottom": "item/tools/mending"
+	}
+}

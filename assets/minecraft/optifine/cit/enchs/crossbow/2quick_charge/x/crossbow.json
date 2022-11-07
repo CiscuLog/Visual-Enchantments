@@ -1,0 +1,8 @@
+{
+	"parent":"minecraft:item/crossbow/crossbow_standby",
+	"textures": {
+		"quick_charge": "item/crossbow/quick_charge0",
+		"piercing_2": "#quick_charge",
+		"string2": "#quick_charge"
+	}
+}

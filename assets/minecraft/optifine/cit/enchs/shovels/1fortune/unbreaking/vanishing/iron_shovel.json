@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/shovels/iron_shovel",
+  "textures": {
+	"base": "item/tools/vanishing/iron_shovel",
+	"head": "item/tools/fortuneshovel",
+	"efficiencytop": "#head",
+	"stick": "item/tools/unbreakingshovel"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:item/crossbow/crossbow_standby",
+	"textures": {
+		"base": "item/crossbow/vanishing",
+		"piercing": "item/crossbow/piercing",
+		"piercing_2": "#piercing",
+		"string": "item/crossbow/mending"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/shovels/iron_shovel",
+  "textures": {
+	"base": "item/tools/vanishing/iron_shovel",
+	"efficiency": "item/tools/efficiency",
+	"bottom": "item/tools/mending"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/axes/diamond_axe",
+  "textures": {
+	"base": "item/tools/bane/vanishing/diamond_axe",
+	"stick": "item/tools/unbreaking",
+	"sticktop": "item/tools/fortuneaxe",
+	"orb": "#sticktop",
+	"efficiencytop": "#sticktop",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

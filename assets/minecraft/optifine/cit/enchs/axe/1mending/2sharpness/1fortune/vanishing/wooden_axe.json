@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/axes/wooden_axe",
+  "textures": {
+	"base": "item/tools/vanishing/wooden_axe",
+	"sticktop": "item/tools/fortuneaxe",
+	"efficiencytop": "#sticktop",
+	"sticktop2": "item/tools/rings/gold",
+	"orb": "item/tools/rings/sharpness",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

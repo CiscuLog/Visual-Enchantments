@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/swords/diamond_sword",
+  "textures": {
+	"base": "item/sword/smite/loot/vanishing/diamond_sword",
+	"grip": "item/sword/unbreaking"
+	}
+}

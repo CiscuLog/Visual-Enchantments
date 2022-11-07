@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pickaxes/netherite_pickaxe",
+  "textures": {
+	"base": "item/tools/vanishing/netherite_pickaxe",
+	"stick": "item/tools/unbreaking"
+	}
+}

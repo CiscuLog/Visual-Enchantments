@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/shovel",
+  "textures": {
+	"base": "item/iron_shovel"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:item/crossbow/multishot_crossbow_firework",
+	"textures": {
+		"base": "item/crossbow/unbreaking",
+		"string": "item/crossbow/mending",
+		"quick_charge": "item/crossbow/quick_charge0",
+		"string2": "#quick_charge"
+	}
+}

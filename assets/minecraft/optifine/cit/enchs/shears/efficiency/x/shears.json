@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/misc/shears",
+  "textures": {
+	"efficiency": "item/shears/efficiency"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/vanishing/diamond_sword",
+	"base2": "item/sword/base/diamond_sword",
+	"bottom": "item/sword/mending"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/bows/bow_pulling_1",
+  "textures": {
+	"base": "item/bow/unbreakingvanishing",
+	"hand": "item/bow/flame",
+	"tip2": "item/bow/power",
+	"arrow": "item/bow/arrow_flame"
+	}
+}

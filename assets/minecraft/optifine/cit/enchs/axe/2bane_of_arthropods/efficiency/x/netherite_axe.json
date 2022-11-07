@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/axes/netherite_axe",
+  "textures": {
+	"base": "item/tools/bane/netherite_axe",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency"
+	}
+}

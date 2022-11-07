@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/shovels/stone_shovel",
+  "textures": {
+	"efficiency": "item/tools/efficiency",
+	"bottom": "item/tools/mending"
+	}
+}

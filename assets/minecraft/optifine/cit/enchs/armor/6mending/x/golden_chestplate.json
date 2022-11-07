@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorchestplate",
+  "textures": {
+	"0": "./gold_layer_1"
+	}
+}

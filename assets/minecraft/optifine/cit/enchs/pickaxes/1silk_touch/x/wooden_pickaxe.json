@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pickaxes/wooden_pickaxe",
+  "textures": {
+	"top": "item/tools/silk_touch",
+	"sticktop": "item/tools/silk_touch"
+	}
+}

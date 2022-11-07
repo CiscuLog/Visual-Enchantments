@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/hoes/wooden_hoe",
+  "textures": {
+	"base": "item/tools/vanishing/wooden_hoe",
+	"stick": "item/tools/unbreaking",
+	"top": "item/tools/silk_touch",
+	"sticktop": "item/tools/silk_touch",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

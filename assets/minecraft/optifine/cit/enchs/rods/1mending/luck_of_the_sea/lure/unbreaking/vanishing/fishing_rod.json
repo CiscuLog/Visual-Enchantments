@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/rods/fishing_rod",
+  "textures": {
+	"base": "item/rods/unbreakingvanishing",
+	"wheel": "item/rods/lure",
+	"clock": "item/rods/mending",
+	"bait": "item/rods/luck_of_the_sea"
+	}
+}

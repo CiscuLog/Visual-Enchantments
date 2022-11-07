@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/swords/stone_sword",
+  "textures": {
+	"base": "item/sword/bane/loot/vanishing/stone_sword"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/iron_sword",
+  "textures": {
+	"base": "item/sword/smite/loot/iron_sword"
+	}
+}

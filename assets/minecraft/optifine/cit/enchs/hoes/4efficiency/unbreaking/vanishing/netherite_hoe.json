@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/hoes/netherite_hoe",
+  "textures": {
+	"base": "item/tools/vanishing/netherite_hoe",
+	"stick": "item/tools/unbreaking",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

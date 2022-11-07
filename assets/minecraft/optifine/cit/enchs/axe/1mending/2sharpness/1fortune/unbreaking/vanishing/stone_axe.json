@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/axes/stone_axe",
+  "textures": {
+	"base": "item/tools/vanishing/stone_axe",
+	"stick": "item/tools/unbreaking",
+	"sticktop": "item/tools/fortuneaxe",
+	"efficiencytop": "#sticktop",
+	"sticktop2": "item/tools/rings/gold",
+	"orb": "item/tools/rings/sharpness",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

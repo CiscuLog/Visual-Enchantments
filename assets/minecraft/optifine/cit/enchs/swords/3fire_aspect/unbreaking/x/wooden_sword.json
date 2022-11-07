@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/swords/wooden_sword",
+  "textures": {
+	"fire": "item/sword/fire1",
+	"grip": "item/sword/unbreaking"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/loot/wooden_sword",
+	"base2": "item/sword/base/wooden_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/wood",
+	"fire": "item/sword/firelarge1",
+	"grip": "item/sword/knockbackunbreaking",
+	"guard": "#grip",
+	"bottom": "item/sword/mending"
+	}
+}

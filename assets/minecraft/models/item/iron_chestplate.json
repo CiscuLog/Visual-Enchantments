@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorchestplate",
+  "textures": {
+	"0": "models/armor/iron_layer_1"
+	}
+}

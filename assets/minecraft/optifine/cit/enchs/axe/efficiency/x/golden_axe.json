@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/axes/golden_axe",
+  "textures": {
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

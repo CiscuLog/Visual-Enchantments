@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/loot/vanishing/netherite_sword",
+	"base2": "item/netherite_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/netherite",
+	"fire": "item/sword/firelarge2",
+	"grip": "item/sword/knockback",
+	"guard": "#grip"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axe",
+  "textures": {
+	"base": "item/iron_axe"
+	}
+}

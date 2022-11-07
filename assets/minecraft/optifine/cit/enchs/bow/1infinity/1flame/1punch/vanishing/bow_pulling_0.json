@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/bows/bow_pulling_0",
+  "textures": {
+	"base": "item/bow/vanishing",
+	"hand": "item/bow/flame",
+	"tip": "item/bow/punch",
+	"tip2": "item/bow/infinity",
+	"arrow": "item/bow/arrow_infiniflamepunch"
+	}
+}

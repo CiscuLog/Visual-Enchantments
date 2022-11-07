@@ -1,0 +1,6 @@
+{
+	"parent":"minecraft:item/crossbow/crossbow_arrow",
+	"textures": {
+		"string": "item/crossbow/mending"
+	}
+}

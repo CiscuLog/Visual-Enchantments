@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/shovels/diamond_shovel",
+  "textures": {
+	"base": "item/tools/vanishing/diamond_shovel",
+	"efficiency": "item/tools/efficiency",
+	"stick": "item/tools/unbreakingshovel"
+	}
+}

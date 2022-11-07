@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorleggings",
+  "textures": {
+	"0": "./netherite_layer_2"
+	}
+}

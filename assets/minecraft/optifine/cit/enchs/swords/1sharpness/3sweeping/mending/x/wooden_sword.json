@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/wooden_sword",
+	"base2": "item/sword/base/wooden_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/wood",
+	"bottom": "item/sword/mending"
+	}
+}

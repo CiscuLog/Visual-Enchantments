@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/hoes/iron_hoe",
+  "textures": {
+	"base": "item/tools/vanishing/iron_hoe",
+	"top": "item/tools/silk_touch",
+	"sticktop": "item/tools/silk_touch",
+	"stickbottom": "item/tools/mending"
+	}
+}

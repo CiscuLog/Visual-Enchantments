@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/hoes/diamond_hoe",
+  "textures": {
+	"base": "minecraft:item/tools/vanishing/diamond_hoe",
+	"top": "item/tools/silk_touch",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency",
+	"sticktop": "item/tools/silk_touch",
+	"stickbottom": "item/tools/mending"
+	}
+}

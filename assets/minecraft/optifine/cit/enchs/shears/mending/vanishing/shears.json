@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/misc/shears",
+  "textures": {
+	"base": "item/shears/vanishing",
+	"mending": "item/shears/mending"
+	}
+}

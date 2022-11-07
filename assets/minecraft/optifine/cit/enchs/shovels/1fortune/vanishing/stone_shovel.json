@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/shovels/stone_shovel",
+  "textures": {
+	"base": "item/tools/vanishing/stone_shovel",
+	"head": "item/tools/fortuneshovel",
+	"efficiencytop": "#head"
+	}
+}

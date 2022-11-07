@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/stone_sword",
+	"base2": "item/sword/smite/stone_sword",
+	"grip": "item/sword/knockback",
+	"guard": "#grip"
+	}
+}

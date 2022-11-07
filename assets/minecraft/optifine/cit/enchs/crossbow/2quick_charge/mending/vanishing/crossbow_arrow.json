@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:item/crossbow/crossbow_arrow",
+	"textures": {
+		"base": "item/crossbow/vanishing",
+		"quick_charge": "item/crossbow/quick_charge0",
+		"string": "item/crossbow/mending",
+		"string2": "#quick_charge"
+	}
+}

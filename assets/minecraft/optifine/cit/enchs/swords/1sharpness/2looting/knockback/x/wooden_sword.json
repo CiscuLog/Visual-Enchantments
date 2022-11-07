@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/swords/wooden_sword",
+  "textures": {
+	"base": "item/sword/looting/wooden_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/wood",
+	"grip": "item/sword/knockback",
+	"guard": "#grip"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/pickaxes/iron_pickaxe",
+  "textures": {
+	"top": "item/tools/fortune",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency",
+	"sticktop": "item/tools/fortune",
+	"stickbottom": "item/tools/mending"
+	}
+}

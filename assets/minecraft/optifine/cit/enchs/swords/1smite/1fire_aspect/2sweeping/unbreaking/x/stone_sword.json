@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/stone_sword",
+	"base2": "item/sword/smite/stone_sword",
+	"orb2": "item/sword/orbs/skeletonfa1",
+	"grip": "item/sword/unbreaking",
+	"fire": "item/sword/firelarge1"
+	}
+}

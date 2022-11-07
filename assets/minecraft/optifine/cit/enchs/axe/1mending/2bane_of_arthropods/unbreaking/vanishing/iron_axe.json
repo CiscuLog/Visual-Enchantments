@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"base": "item/tools/bane/vanishing/iron_axe",
+	"stick": "item/tools/unbreaking",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

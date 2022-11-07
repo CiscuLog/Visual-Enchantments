@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/axes/diamond_axe",
+  "textures": {
+	"base": "item/tools/bane/diamond_axe",
+	"sticktop": "item/tools/silk_touchaxe",
+	"orb": "#sticktop",
+	"efficiencytop": "#sticktop",
+	"efficiency": "item/tools/efficiency",
+	"stick": "item/tools/unbreaking"
+	}
+}

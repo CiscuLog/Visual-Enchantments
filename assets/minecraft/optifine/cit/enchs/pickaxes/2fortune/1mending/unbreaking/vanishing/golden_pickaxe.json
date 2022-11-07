@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/pickaxes/golden_pickaxe",
+  "textures": {
+	"base": "item/tools/vanishing/golden_pickaxe",
+	"stick": "item/tools/unbreaking",
+	"top": "item/tools/fortune",
+	"sticktop": "item/tools/fortune",
+	"stickbottom": "item/tools/mending"
+	}
+}

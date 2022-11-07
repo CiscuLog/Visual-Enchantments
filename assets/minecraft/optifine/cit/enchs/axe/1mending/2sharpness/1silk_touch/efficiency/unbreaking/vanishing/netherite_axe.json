@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/axes/netherite_axe",
+  "textures": {
+	"base": "item/tools/vanishing/netherite_axe",
+	"stick": "item/tools/unbreaking",
+	"sticktop": "item/tools/silk_touchaxe",
+	"sticktop2": "item/tools/rings/diamond",
+	"orb": "item/tools/rings/sharpness",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#sticktop",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

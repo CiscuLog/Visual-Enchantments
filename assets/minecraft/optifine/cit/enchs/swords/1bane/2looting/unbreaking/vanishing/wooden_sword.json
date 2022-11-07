@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/swords/wooden_sword",
+  "textures": {
+	"base": "item/sword/bane/loot/vanishing/wooden_sword",
+	"grip": "item/sword/unbreaking"
+	}
+}

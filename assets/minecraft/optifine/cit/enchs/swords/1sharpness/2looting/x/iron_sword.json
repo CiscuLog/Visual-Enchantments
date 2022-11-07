@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/iron_sword",
+  "textures": {
+	"base": "item/sword/looting/iron_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/iron"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"base": "item/tools/bane/iron_axe",
+	"sticktop": "item/tools/silk_touchaxe",
+	"orb": "#sticktop",
+	"efficiencytop": "#sticktop"
+	}
+}

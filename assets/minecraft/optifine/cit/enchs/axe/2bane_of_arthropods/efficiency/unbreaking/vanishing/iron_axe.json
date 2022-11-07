@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"base": "item/tools/bane/vanishing/iron_axe",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency",
+	"stick": "item/tools/unbreaking"
+	}
+}

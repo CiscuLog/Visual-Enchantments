@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/pickaxes/stone_pickaxe",
+  "textures": {
+	"base": "item/tools/vanishing/stone_pickaxe",
+	"top": "item/tools/silk_touch",
+	"sticktop": "item/tools/silk_touch",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency"
+	}
+}

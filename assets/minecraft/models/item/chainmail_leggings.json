@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorleggings",
+  "textures": {
+	"0": "models/armor/chainmail_layer_2"
+	}
+}

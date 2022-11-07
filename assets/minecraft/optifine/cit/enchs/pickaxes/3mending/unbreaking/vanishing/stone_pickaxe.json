@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/pickaxes/stone_pickaxe",
+  "textures": {
+	"base": "item/tools/vanishing/stone_pickaxe",
+	"stick": "item/tools/unbreaking",
+	"stickbottom": "item/tools/mending"
+	}
+}

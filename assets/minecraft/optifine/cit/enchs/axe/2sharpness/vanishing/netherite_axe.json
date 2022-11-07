@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/axes/netherite_axe",
+  "textures": {
+	"base": "item/tools/vanishing/netherite_axe",
+	"sticktop2": "item/tools/rings/netherite",
+	"orb": "item/tools/rings/sharpness",
+	"ring": "#sticktop2",
+	"ring2": "#ring"
+	}
+}

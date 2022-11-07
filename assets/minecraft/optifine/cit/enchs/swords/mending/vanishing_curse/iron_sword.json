@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/swords/iron_sword",
+  "textures": {
+	"base": "item/sword/vanishing/iron_sword",
+	"bottom": "item/sword/mending"
+	}
+}

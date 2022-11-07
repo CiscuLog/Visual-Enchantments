@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/swords/golden_sword",
+  "textures": {
+	"base": "item/sword/bane/vanishing/golden_sword",
+	"grip": "item/sword/knockback",
+	"ring1": "#grip",
+	"orb1": "#grip",
+	"guard": "#grip"
+	}
+}

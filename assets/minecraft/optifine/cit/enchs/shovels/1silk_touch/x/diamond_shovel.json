@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/shovels/diamond_shovel",
+  "textures": {
+	"head": "item/tools/silk_touchshovel",
+	"efficiencytop": "#head"
+	}
+}

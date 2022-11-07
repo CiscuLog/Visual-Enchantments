@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/pickaxes/stone_pickaxe",
+  "textures": {
+	"stick": "item/tools/unbreaking"
+	}
+}

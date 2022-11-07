@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/loot/wooden_sword",
+	"base2": "item/sword/base/wooden_sword",
+	"fire": "item/sword/firelarge1",
+	"bottom": "item/sword/mending"
+	}
+}

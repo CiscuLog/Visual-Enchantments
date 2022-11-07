@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/rods/carrot_on_a_stick",
+  "textures": {
+	"base": "item/rods/vanishing",
+	"clock": "item/rods/mending"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:item/crossbow/crossbow_pulling_0",
+	"textures": {
+		"piercing": "item/crossbow/piercing",
+		"quick_charge": "item/crossbow/quick_charge1",
+		"piercing_2": "#quick_charge",
+		"string2": "#quick_charge"
+	}
+}

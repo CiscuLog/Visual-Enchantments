@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/vanishing/netherite_sword",
+	"base2": "item/sword/smite/netherite_sword",
+	"bottom": "item/sword/mending",
+	"orb2": "item/sword/orbs/skeletonm2"
+	}
+}

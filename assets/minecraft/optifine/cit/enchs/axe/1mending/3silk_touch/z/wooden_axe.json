@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/axes/wooden_axe",
+  "textures": {
+	"sticktop": "item/tools/silk_touchaxe",
+	"orb": "#sticktop",
+	"efficiencytop": "#sticktop",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

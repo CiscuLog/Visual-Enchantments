@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/pickaxes/golden_pickaxe",
+  "textures": {
+	"base": "item/tools/vanishing/golden_pickaxe",
+	"stick": "item/tools/unbreaking",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

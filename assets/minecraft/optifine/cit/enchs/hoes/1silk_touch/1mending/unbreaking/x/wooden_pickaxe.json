@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/hoes/wooden_hoe",
+  "textures": {
+	"stick": "item/tools/unbreaking",
+	"top": "item/tools/silk_touch",
+	"sticktop": "item/tools/silk_touch",
+	"stickbottom": "item/tools/mending"
+	}
+}

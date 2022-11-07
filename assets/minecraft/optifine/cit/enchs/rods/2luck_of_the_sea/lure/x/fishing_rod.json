@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/rods/fishing_rod",
+  "textures": {
+	"wheel": "item/rods/lureoff",
+	"bait": "item/rods/luck_of_the_sea"
+	}
+}

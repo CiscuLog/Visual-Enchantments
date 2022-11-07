@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axe",
+  "textures": {
+	"base": "item/netherite_axe"
+	}
+}

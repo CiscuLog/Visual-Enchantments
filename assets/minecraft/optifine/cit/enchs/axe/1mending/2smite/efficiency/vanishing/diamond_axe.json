@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/axes/diamond_axe",
+  "textures": {
+	"base": "item/tools/vanishing/diamond_axe",
+	"sticktop2": "item/tools/rings/diamond",
+	"orb": "item/tools/rings/smite",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"stick": "item/tools/unbreaking",
+	"sticktop": "item/tools/silk_touchaxe",
+	"sticktop2": "item/tools/rings/diamond",
+	"orb": "item/tools/rings/smite",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#sticktop"
+	}
+}

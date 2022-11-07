@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/hoes/wooden_hoe",
+  "textures": {
+	"base": "item/tools/vanishing/wooden_hoe",
+	"stick": "item/tools/unbreaking",
+	"top": "item/tools/fortune",
+	"sticktop": "item/tools/fortune",
+	"stickbottom": "item/tools/mending"
+	}
+}

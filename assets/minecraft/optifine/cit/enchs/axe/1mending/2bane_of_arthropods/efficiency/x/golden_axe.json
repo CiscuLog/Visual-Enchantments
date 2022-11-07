@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/axes/golden_axe",
+  "textures": {
+	"base": "item/tools/bane/golden_axe",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

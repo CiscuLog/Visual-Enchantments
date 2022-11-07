@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pickaxes/iron_pickaxe",
+  "textures": {
+	"base": "item/tools/vanishing/iron_pickaxe",
+	"stickbottom": "item/tools/mending"
+	}
+}

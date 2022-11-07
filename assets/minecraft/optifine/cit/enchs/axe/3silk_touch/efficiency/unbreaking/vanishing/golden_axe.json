@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/axes/golden_axe",
+  "textures": {
+	"base": "item/tools/vanishing/golden_axe",
+	"sticktop": "item/tools/silk_touchaxe",
+	"orb": "#sticktop",
+	"ring2": "#sticktop",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#sticktop",
+	"stick": "item/tools/unbreaking"
+	}
+}

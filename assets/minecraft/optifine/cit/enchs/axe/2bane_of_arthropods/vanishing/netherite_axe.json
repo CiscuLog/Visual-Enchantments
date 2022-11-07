@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axes/netherite_axe",
+  "textures": {
+	"base": "item/tools/bane/vanishing/netherite_axe"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/hoe",
+  "textures": {
+	"base": "item/diamond_hoe"
+	}
+}

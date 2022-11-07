@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/bows/bow",
+  "textures": {
+	"base": "item/bow/unbreakingvanishing",
+	"hand": "item/bow/flame",
+	"tip2": "item/bow/power",
+	"string": "item/bow/base"
+	}
+}

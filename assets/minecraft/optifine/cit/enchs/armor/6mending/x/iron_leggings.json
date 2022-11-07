@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorleggings",
+  "textures": {
+	"0": "./iron_layer_2"
+	}
+}

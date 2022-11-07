@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/shovels/wooden_shovel",
+  "textures": {
+	"bottom": "item/tools/mending",
+	"stick": "item/tools/unbreakingshovel"
+	}
+}

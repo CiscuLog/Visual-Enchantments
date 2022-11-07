@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"base": "item/tools/vanishing/iron_axe",
+	"sticktop2": "item/tools/rings/iron",
+	"orb": "item/tools/rings/sharpness",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency"
+	}
+}

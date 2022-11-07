@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/rods/rod",
+  "textures": {
+	"bait": "item/rods/cast"
+	}
+}

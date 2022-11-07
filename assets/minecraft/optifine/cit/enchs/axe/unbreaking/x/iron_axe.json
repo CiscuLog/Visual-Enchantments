@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"stick": "item/tools/unbreaking"
+	}
+}

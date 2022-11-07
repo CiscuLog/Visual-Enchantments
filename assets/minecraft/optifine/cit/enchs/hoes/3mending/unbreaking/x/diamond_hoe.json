@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/hoes/diamond_hoe",
+  "textures": {
+	"stick": "item/tools/unbreaking",
+	"stickbottom": "item/tools/mending"
+	}
+}

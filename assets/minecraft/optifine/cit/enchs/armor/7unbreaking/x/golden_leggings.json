@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorleggings",
+  "textures": {
+	"0": "./gold_layer_2"
+	}
+}

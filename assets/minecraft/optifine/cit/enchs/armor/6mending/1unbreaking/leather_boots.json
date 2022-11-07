@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/leather_boots",
+  "textures": {
+	"0": "./leather_layer_1",
+	"1": "./leather_layer_1_overlay"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/swords/wooden_sword",
+  "textures": {
+	"base": "item/sword/smite/vanishing/wooden_sword",
+	"orb2": "item/sword/orbs/skeletonfa1",
+	"fire": "item/sword/fire1",
+	"grip": "item/sword/knockbackunbreaking",
+	"guard": "#grip"
+	}
+}

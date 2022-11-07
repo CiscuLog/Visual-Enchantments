@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/shovels/diamond_shovel",
+  "textures": {
+	"base": "item/tools/vanishing/diamond_shovel",
+	"head": "item/tools/silk_touchshovel",
+	"efficiencytop": "#head",
+	"efficiency": "item/tools/efficiency",
+	"bottom": "item/tools/mending",
+	"stick": "item/tools/unbreakingshovel"
+	}
+}

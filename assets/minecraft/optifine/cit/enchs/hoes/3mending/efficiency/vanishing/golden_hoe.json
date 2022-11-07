@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/hoes/golden_hoe",
+  "textures": {
+	"base": "item/tools/vanishing/golden_hoe",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "#efficiency",
+	"stickbottom": "item/tools/mending"
+	}
+}

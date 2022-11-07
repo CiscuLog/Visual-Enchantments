@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/bows/bow_pulling_0",
+  "textures": {
+	"tip": "item/bow/punch",
+	"tip2": "item/bow/power",
+	"string": "item/bow/mending",
+	"arrow": "item/bow/arrow_punch"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/loot/iron_sword",
+	"base2": "item/sword/smite/iron_sword",
+	"orb2": "item/sword/orbs/skeletonfa1",
+	"fire": "item/sword/firelarge1",
+	"bottom": "item/sword/mending"
+	}
+}

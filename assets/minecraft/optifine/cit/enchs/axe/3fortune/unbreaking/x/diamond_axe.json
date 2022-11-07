@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/axes/diamond_axe",
+  "textures": {
+	"sticktop": "item/tools/fortuneaxe",
+	"orb": "#sticktop",
+	"ring2": "#sticktop",
+	"efficiencytop": "#sticktop",
+	"stick": "item/tools/unbreaking"
+	}
+}

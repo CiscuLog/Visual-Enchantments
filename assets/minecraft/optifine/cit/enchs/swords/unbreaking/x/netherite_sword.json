@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/swords/netherite_sword",
+  "textures": {
+	"grip": "item/sword/unbreaking"
+	}
+}

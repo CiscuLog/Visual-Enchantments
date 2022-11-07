@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"sticktop": "item/tools/silk_touchaxe",
+	"orb": "#sticktop",
+	"ring2": "#sticktop",
+	"efficiencytop": "#sticktop",
+	"efficiency": "item/tools/efficiency",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent":"minecraft:item/crossbow/multishot_crossbow_arrow",
+	"textures": {
+		"base": "item/crossbow/vanishing"
+	}
+}

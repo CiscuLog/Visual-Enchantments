@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/axes/netherite_axe",
+  "textures": {
+	"sticktop": "item/tools/fortuneaxe",
+	"orb": "item/tools/fortuneaxe",
+	"efficiencytop": "item/tools/fortuneaxe",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

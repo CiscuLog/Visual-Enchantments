@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/hoes/golden_hoe",
+  "textures": {
+	"stick": "item/tools/unbreaking"
+	}
+}

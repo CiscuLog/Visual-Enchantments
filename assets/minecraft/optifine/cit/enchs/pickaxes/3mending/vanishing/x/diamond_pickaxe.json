@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/pickaxes/diamond_pickaxe",
+  "textures": {
+	"base": "item/tools/vanishing/diamond_pickaxe",
+	"stickbottom": "item/tools/mending"
+	}
+}

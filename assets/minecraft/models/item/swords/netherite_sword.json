@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/sword",
+  "textures": {
+	"base": "item/sword/base/netherite_sword"
+	}
+}

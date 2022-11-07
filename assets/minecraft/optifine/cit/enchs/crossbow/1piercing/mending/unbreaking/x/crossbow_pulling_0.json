@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:item/crossbow/crossbow_pulling_0",
+	"textures": {
+		"base": "item/crossbow/unbreaking",
+		"piercing": "item/crossbow/piercing",
+		"piercing_2": "#piercing",
+		"string": "item/crossbow/mending"
+	}
+}

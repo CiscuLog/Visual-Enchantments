@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorboots",
+  "textures": {
+	"0": "./netherite_layer_1"
+	}
+}

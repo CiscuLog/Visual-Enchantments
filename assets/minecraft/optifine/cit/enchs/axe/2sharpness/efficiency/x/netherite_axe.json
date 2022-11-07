@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/axes/netherite_axe",
+  "textures": {
+	"sticktop2": "item/tools/rings/netherite",
+	"orb": "item/tools/rings/sharpness",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

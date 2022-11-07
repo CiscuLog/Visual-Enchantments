@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/iron_sword",
+  "textures": {
+	"base": "item/sword/smite/iron_sword",
+	"orb2": "item/sword/orbs/skeletonfa1",
+	"fire": "item/sword/fire1",
+	"grip": "item/sword/unbreaking"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/swords/golden_sword",
+  "textures": {
+	"base": "item/sword/bane/loot/golden_sword"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axes/diamond_axe",
+  "textures": {
+	"base": "item/tools/bane/diamond_axe"
+	}
+}

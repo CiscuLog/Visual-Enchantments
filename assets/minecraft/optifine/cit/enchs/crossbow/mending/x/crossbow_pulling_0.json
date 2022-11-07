@@ -1,0 +1,6 @@
+{
+	"parent":"minecraft:item/crossbow/crossbow_pulling_0",
+	"textures": {
+		"string": "item/crossbow/mending"
+	}
+}

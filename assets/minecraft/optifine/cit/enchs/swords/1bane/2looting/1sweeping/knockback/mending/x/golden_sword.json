@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/bane/loot/golden_sword",
+	"base2": "item/sword/bane/golden_sword",
+	"grip": "item/sword/knockback",
+	"orb1": "#grip",
+	"ring1": "#grip",
+	"guard": "#grip",
+	"bottom": "item/sword/mending"
+	}
+}

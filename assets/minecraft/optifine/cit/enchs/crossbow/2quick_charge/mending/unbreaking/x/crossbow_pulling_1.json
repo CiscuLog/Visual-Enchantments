@@ -1,0 +1,10 @@
+{
+	"parent":"minecraft:item/crossbow/crossbow_pulling_1",
+	"textures": {
+		"base": "item/crossbow/unbreaking",
+		"quick_charge": "item/crossbow/quick_charge2",
+		"piercing_2": "#quick_charge",
+		"string": "item/crossbow/mending",
+		"string2": "#string"
+	}
+}

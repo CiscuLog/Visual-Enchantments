@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/axes/stone_axe",
+  "textures": {
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency",
+	"stick": "item/tools/unbreaking",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

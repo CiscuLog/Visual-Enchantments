@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/swords/longsword",
+  "textures": {
+	"base": "item/sword/sweep/diamond_sword",
+	"base2": "item/sword/smite/diamond_sword",
+	"grip": "item/sword/unbreaking"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/iron_sword",
+  "textures": {
+	"base": "item/sword/vanishing/iron_sword",
+	"orb2": "item/sword/orbs/sharpness",
+	"ring2": "item/sword/orbs/iron",
+	"grip": "item/sword/knockbackunbreaking",
+	"guard": "#grip",
+	"bottom": "item/sword/mending"
+	}
+}

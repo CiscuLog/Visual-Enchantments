@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bows/bow",
+  "textures": {
+	"tip": "item/bow/infinity"
+	}
+}

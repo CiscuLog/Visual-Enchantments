@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/misc/shears",
+  "textures": {
+	"base": "item/shears/unbreaking",
+	"efficiency": "item/shears/efficiency",
+	"mending": "item/shears/mending"
+	}
+}

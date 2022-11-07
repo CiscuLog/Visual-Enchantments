@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/rods/fishing_rod",
+  "textures": {
+	"clock": "item/rods/mending"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bows/bow",
+  "textures": {
+	"string": "item/bow/mending"
+	}
+}

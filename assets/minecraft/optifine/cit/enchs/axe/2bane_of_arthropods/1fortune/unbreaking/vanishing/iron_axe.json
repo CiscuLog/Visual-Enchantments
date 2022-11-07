@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/axes/iron_axe",
+  "textures": {
+	"base": "item/tools/bane/vanishing/iron_axe",
+	"stick": "item/tools/unbreaking",
+	"sticktop": "item/tools/fortuneaxe",
+	"orb": "#sticktop",
+	"efficiencytop": "#sticktop"
+	}
+}

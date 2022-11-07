@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorchestplate",
+  "textures": {
+	"0": "./netherite_layer_1"
+	}
+}

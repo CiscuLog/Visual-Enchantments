@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/axes/golden_axe",
+  "textures": {
+	"sticktop2": "item/tools/rings/gold",
+	"orb": "item/tools/rings/smite",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"efficiency": "item/tools/efficiency",
+	"efficiencytop": "item/tools/efficiency"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/swords/stone_sword",
+  "textures": {
+	"base": "item/sword/bane/vanishing/stone_sword",
+	"fire": "item/sword/fire1",
+	"grip": "item/sword/knockbackunbreaking",
+	"orb1": "#grip",
+	"ring1": "#grip",
+	"guard": "#grip"
+	}
+}

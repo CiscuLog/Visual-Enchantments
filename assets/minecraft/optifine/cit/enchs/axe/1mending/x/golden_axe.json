@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axes/golden_axe",
+  "textures": {
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

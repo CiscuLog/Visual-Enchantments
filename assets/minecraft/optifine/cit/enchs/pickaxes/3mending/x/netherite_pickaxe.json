@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/pickaxes/netherite_pickaxe",
+  "textures": {
+	"stickbottom": "item/tools/mending"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/axes/stone_axe",
+  "textures": {
+	"sticktop": "item/tools/silk_touchaxe",
+	"efficiencytop": "#sticktop",
+	"sticktop2": "item/tools/rings/diamond",
+	"orb": "item/tools/rings/sharpness",
+	"ring": "#sticktop2",
+	"ring2": "#ring",
+	"stickbottom": "item/tools/mendingaxe"
+	}
+}

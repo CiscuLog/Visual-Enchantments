@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/shovels/diamond_shovel",
+  "textures": {
+	"efficiency": "item/tools/efficiency"
+	}
+}

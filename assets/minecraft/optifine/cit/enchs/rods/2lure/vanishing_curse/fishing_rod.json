@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/rods/fishing_rod",
+  "textures": {
+	"base": "item/rods/vanishing",
+	"wheel": "item/rods/lureoff"
+	}
+}

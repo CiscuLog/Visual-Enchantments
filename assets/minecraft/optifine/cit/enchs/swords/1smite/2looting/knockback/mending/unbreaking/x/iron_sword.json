@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/iron_sword",
+  "textures": {
+	"base": "item/sword/smite/loot/iron_sword",
+	"grip": "item/sword/knockbackunbreaking",
+	"guard": "#grip",
+	"bottom": "item/sword/mending",
+	"orb2": "item/sword/orbs/skeletonm1"
+	}
+}

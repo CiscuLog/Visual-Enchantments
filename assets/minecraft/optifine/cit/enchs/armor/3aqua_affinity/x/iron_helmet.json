@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/armorhelmet",
+  "textures": {
+	"0": "./iron_layer_1"
+	}
+}

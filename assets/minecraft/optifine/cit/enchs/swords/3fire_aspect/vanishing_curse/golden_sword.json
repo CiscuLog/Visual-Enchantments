@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/swords/golden_sword",
+  "textures": {
+	"base": "item/sword/vanishing/golden_sword",
+	"fire": "item/sword/fire1"
+	}
+}

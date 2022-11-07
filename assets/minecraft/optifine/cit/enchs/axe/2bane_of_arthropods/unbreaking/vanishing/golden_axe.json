@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/axes/golden_axe",
+  "textures": {
+	"base": "item/tools/bane/vanishing/golden_axe",
+	"stick": "item/tools/unbreaking"
+	}
+}
