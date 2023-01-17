@@ -4,15 +4,14 @@ Required settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
 
-Changes in VisualEnchantments 3.1.0_(BETA) (19/07/2022)
+Changes in VisualEnchantments 3.1.0 (17/01/2023)
 + Updated to 1.19
-+ Retextured all armor enchantments
-+ Made all armor item models 3D
 + Added Swift Sneak enchantment
 + Added mending emissive textures for crossbows
 + Added mending emissing textures for rods
 + Added missing elytra textures
 + Added missing flint and steel textures
++ Changed looting texture
 + Relocated several model file paths
 - Removed Visual Trident's datapack files
 - Removed enchanted Horse Armor files

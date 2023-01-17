@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/swords/golden_sword",
   "textures": {
-	"base": "item/sword/looting/golden_sword",
+	"looting": "item/sword/looting",
 	"orb2": "item/sword/orbs/sharpness",
 	"ring2": "item/sword/orbs/gold",
 	"fire": "item/sword/fire1"

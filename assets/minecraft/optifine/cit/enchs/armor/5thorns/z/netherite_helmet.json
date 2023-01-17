@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/armorhelmet",
-  "textures": {
-	"0": "./netherite_layer_1"
-	}
-}

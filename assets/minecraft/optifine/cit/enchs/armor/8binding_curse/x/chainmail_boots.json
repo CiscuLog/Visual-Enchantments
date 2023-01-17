@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/armorboots",
-  "textures": {
-	"0": "./chainmail_layer_1"
-	}
-}

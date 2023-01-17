@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/armorchestplate",
-  "textures": {
-	"0": "models/armor/diamond_layer_1"
-	}
-}

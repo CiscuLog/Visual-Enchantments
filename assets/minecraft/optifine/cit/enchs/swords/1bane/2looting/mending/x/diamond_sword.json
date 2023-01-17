@@ -1,7 +1,8 @@
 {
   "parent": "minecraft:item/swords/diamond_sword",
   "textures": {
-	"base": "item/sword/bane/loot/diamond_sword",
+	"base": "item/sword/bane/diamond_sword",
+"looting": "item/sword/looting",
 	"bottom": "item/sword/mending"
 	}
 }

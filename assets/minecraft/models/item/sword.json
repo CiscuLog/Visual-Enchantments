@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-   	"gui_light": "front",
 	"textures": {
+		"particle": "item/sword/loot/vanishing/iron_sword",
 		"base": "item/sword/loot/vanishing/iron_sword",
 		"bottom": "#base",
 		"stick": "#base",
@@ -12,7 +12,7 @@
 		"orb1": "#orb2",
 		"guard": "#base",
 		"fire": "item/blank",
-		"particle": "#base"
+		"looting": "item/blank"
 	},
 	"elements": [
 		{
@@ -420,8 +420,86 @@
 				"east": {"uv": [15, 0, 16, 11], "texture": "#base"},
 				"west": {"uv": [15, 0, 16, 11], "texture": "#base"}
 			}
+		},
+		{
+			"from": [10, 15, 7.5],
+			"to": [13, 16, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15.5]},
+			"faces": {
+				"north": {"uv": [13, 0, 10, 1], "texture": "#looting"},
+				"south": {"uv": [10, 0, 13, 1], "texture": "#looting"},
+				"west": {"uv": [10, 0, 11, 1], "texture": "#looting"},
+				"up": {"uv": [10, 0, 13, 1], "texture": "#looting"},
+				"down": {"uv": [10, 0, 13, 1], "texture": "#looting"}
+			}
+		},
+		{
+			"from": [8, 14, 7.5],
+			"to": [10, 15, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15.5]},
+			"faces": {
+				"north": {"uv": [10, 1, 8, 2], "texture": "#looting"},
+				"east": {"uv": [9, 1, 10, 2], "texture": "#looting"},
+				"south": {"uv": [8, 1, 10, 2], "texture": "#looting"},
+				"west": {"uv": [8, 1, 9, 2], "texture": "#looting"},
+				"up": {"uv": [8, 1, 10, 2], "texture": "#looting"},
+				"down": {"uv": [8, 1, 10, 2], "texture": "#looting"}
+			}
+		},
+		{
+			"from": [7, 13, 7.5],
+			"to": [8, 14, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15.5]},
+			"faces": {
+				"north": {"uv": [8, 2, 7, 3], "texture": "#looting"},
+				"east": {"uv": [7, 2, 8, 3], "texture": "#looting"},
+				"south": {"uv": [7, 2, 8, 3], "texture": "#looting"},
+				"west": {"uv": [7, 2, 8, 3], "texture": "#looting"},
+				"up": {"uv": [7, 2, 8, 3], "texture": "#looting"},
+				"down": {"uv": [7, 2, 8, 3], "texture": "#looting"}
+			}
+		},
+		{
+			"from": [4, 11, 7.5],
+			"to": [6, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15.5]},
+			"faces": {
+				"north": {"uv": [6, 4, 4, 5], "texture": "#looting"},
+				"east": {"uv": [5, 4, 6, 5], "texture": "#looting"},
+				"south": {"uv": [4, 4, 6, 5], "texture": "#looting"},
+				"west": {"uv": [4, 4, 5, 5], "texture": "#looting"},
+				"up": {"uv": [4, 4, 6, 5], "texture": "#looting"},
+				"down": {"uv": [4, 4, 6, 5], "texture": "#looting"}
+			}
+		},
+		{
+			"from": [4, 12, 7.5],
+			"to": [5, 13, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15.5]},
+			"faces": {
+				"north": {"uv": [5, 3, 4, 4], "texture": "#looting"},
+				"east": {"uv": [4, 3, 5, 4], "texture": "#looting"},
+				"south": {"uv": [4, 3, 5, 4], "texture": "#looting"},
+				"west": {"uv": [4, 3, 5, 4], "texture": "#looting"},
+				"up": {"uv": [4, 3, 5, 4], "texture": "#looting"},
+				"down": {"uv": [4, 3, 5, 4], "texture": "#looting"}
+			}
+		},
+		{
+			"from": [6, 12, 7.5],
+			"to": [7, 13, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15.5]},
+			"faces": {
+				"north": {"uv": [7, 3, 6, 4], "texture": "#looting"},
+				"east": {"uv": [6, 3, 7, 4], "texture": "#looting"},
+				"south": {"uv": [6, 3, 7, 4], "texture": "#looting"},
+				"west": {"uv": [6, 3, 7, 4], "texture": "#looting"},
+				"up": {"uv": [6, 3, 7, 4], "texture": "#looting"},
+				"down": {"uv": [6, 3, 7, 4], "texture": "#looting"}
+			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 55],

@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/swords/golden_sword",
   "textures": {
-	"base": "item/sword/smite/loot/golden_sword"
+	"base": "item/sword/smite/golden_sword",
+"looting": "item/sword/looting"
 	}
 }

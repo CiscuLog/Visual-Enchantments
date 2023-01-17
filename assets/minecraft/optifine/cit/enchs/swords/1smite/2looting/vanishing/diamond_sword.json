@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/swords/diamond_sword",
   "textures": {
-	"base": "item/sword/smite/loot/vanishing/diamond_sword"
+	"base": "item/sword/smite/vanishing/diamond_sword",
+"looting": "item/sword/looting"
 	}
 }

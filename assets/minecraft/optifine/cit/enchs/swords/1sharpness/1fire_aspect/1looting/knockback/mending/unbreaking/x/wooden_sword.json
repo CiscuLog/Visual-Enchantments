@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/swords/wooden_sword",
   "textures": {
-	"base": "item/sword/looting/wooden_sword",
+	"looting": "item/sword/looting",
 	"orb2": "item/sword/orbs/sharpness",
 	"ring2": "item/sword/orbs/wood",
 	"fire": "item/sword/fire1",

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/iron_sword",
+  "parent": "minecraft:item/swords/iron_sword",
   "textures": {
 	"base": "item/sword/smite/vanishing/iron_sword",
 	"grip": "item/sword/knockback",
