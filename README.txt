@@ -4,6 +4,10 @@ Required settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
 
+Changes in VisualEnchantments 3.1.1 (13/02/2023)
++ Fixed Swift Sneak on Leather Leggings
+
+
 Changes in VisualEnchantments 3.1.0 (17/01/2023)
 + Updated to 1.19
 + Added Swift Sneak enchantment
@@ -16,6 +20,8 @@ Changes in VisualEnchantments 3.1.0 (17/01/2023)
 - Removed Visual Trident's datapack files
 - Removed enchanted Horse Armor files
 - Removed Infinity + Mending bows
+
+---------------------------------------------------------
 
 Changes in VisualEnchantments 3.0.5 (14/04/2022)
 - Added all missing crossbow combinations
