@@ -4,16 +4,17 @@ Required settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
 
+Changes in VisualEnchantments 3.2.1 (25/02/2023)
++ Fixed trident and enchanted golden apple textures
+
 Changes in VisualEnchantments 3.2.0 (24/02/2023)
-+ Added fully-enchanted armor combinations in item form for netherite, diamond, iron, golden and netherite
++ Added fully-enchanted armor combinations in item form for chainmail, diamond, iron, golden, netherite and turtle
 + Changed textures for all armor enchantments
 + Changed Curse of Binding enchanted book
 - Reduced the amount of enchantments displayed on worn armor to 1
 
-
 Changes in VisualEnchantments 3.1.1 (13/02/2023)
 + Fixed Swift Sneak on Leather Leggings
-
 
 Changes in VisualEnchantments 3.1.0 (17/01/2023)
 + Updated to 1.19
