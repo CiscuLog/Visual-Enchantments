@@ -4,7 +4,7 @@
 	"sticktop": "item/tools/silk_touchaxe",
 	"efficiencytop": "#sticktop",
 	"sticktop2": "item/tools/rings/diamond",
-	"orb": "item/tools/rings/smite",
+	"orb": "item/tools/rings/black_smite",
 	"ring": "#sticktop2",
 	"ring2": "#ring"
 	}

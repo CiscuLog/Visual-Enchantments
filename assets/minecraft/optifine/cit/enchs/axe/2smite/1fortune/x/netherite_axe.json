@@ -4,7 +4,7 @@
 	"sticktop": "item/tools/fortuneaxe",
 	"efficiencytop": "#sticktop",
 	"sticktop2": "item/tools/rings/gold",
-	"orb": "item/tools/rings/smite",
+	"orb": "item/tools/rings/black_smite",
 	"ring": "#sticktop2",
 	"ring2": "#ring"
 	}

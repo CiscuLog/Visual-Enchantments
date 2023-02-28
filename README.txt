@@ -1,8 +1,13 @@
-COMPATIBLE GAME VERSIONS: 1.13 to 1.19 (until further notice)
+COMPATIBLE GAME VERSIONS: 1.15 to 1.19.2 (until further notice)
 OptiFine or CIT-related mods required.
 Required settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
+
+Changes in VisualEnchantments 3.2.2 (28/02/2023)
++ Changed Pumpkins with Curse of Binding
++ Changed Smite on Netherite Axes
++ Fixed Depth Strider not displaying on Netherite Boots
 
 Changes in VisualEnchantments 3.2.1 (25/02/2023)
 + Fixed trident and enchanted golden apple textures

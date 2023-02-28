@@ -1,7 +1,6 @@
 {
 	"credit": "Made by CiscuLog with Blockbench",
 	"textures": {
-		"particle": "item/blank",
 		"blank": "item/blank",
 		"base": "item/armor/boots/base",
 		"binding": "item/armor/boots/binding",
@@ -11,7 +10,8 @@
 		"protection": "item/armor/boots/projectile_protection",
 		"thorns": "item/armor/boots/thorns",
 		"unbreaking": "item/armor/boots/unbreaking",
-		"mending": "item/armor/boots/mending"
+		"mending": "item/armor/boots/mending",
+		"particle": "#base"
 	},
 	"elements": [
 		{
