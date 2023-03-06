@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/axes/wooden_axe",
   "textures": {
-	"sticktop2": "item/tools/rings/wood",
+	"sticktop2": "#orb",
 	"orb": "item/tools/rings/smite",
 	"ring": "#sticktop2",
 	"ring2": "#ring"

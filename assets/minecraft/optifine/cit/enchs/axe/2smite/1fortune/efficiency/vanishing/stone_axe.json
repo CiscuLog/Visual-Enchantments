@@ -3,7 +3,7 @@
   "textures": {
 	"base": "item/tools/vanishing/stone_axe",
 	"sticktop": "item/tools/fortuneaxe",
-	"sticktop2": "item/tools/rings/gold",
+	"sticktop2": "#orb",
 	"orb": "item/tools/rings/smite",
 	"ring": "#sticktop2",
 	"ring2": "#ring",

@@ -3,7 +3,7 @@
   "textures": {
 	"sticktop": "item/tools/fortuneaxe",
 	"efficiencytop": "#sticktop",
-	"sticktop2": "item/tools/rings/gold",
+	"sticktop2": "#orb",
 	"orb": "item/tools/rings/smite",
 	"ring": "#sticktop2",
 	"ring2": "#ring"

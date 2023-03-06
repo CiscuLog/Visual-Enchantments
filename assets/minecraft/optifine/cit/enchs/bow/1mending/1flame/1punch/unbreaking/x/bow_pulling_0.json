@@ -4,7 +4,7 @@
 	"base": "item/bow/unbreaking",
 	"hand": "item/bow/flame",
 	"string": "item/bow/mending",
-	"tip": "item/bow/punch",
+	"tip": "item/bow/punch","punch":"#string",
 	"arrow": "item/bow/arrow_flamepunch"
 	}
 }

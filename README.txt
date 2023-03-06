@@ -4,6 +4,14 @@ Required settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
 
+Changes in VisualEnchantments 3.2.3 (06/03/2023)
++ Changed Punch + Mending interaction on bows
++ Changed Smite axes
++ Retextured Aqua Affinity on books
++ Retextured Fire Aspect on books
++ Retextured Fire Protection on books
++ Retextured Blast Protection on books
+
 Changes in VisualEnchantments 3.2.2 (28/02/2023)
 + Changed Pumpkins with Curse of Binding
 + Changed Smite on Netherite Axes

@@ -4,7 +4,7 @@
 	"base": "item/bow/vanishing",
 	"hand": "item/bow/flame",
 	"string": "item/bow/mending",
-	"tip": "item/bow/punch",
+	"tip": "item/bow/punch","punch":"#string",
 	"tip2": "item/bow/power",
 	"arrow": "item/bow/arrow_flamepunch",
 	"handlearrow": "#arrow"

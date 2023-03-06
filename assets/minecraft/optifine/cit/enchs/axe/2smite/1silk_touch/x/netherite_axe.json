@@ -3,7 +3,7 @@
   "textures": {
 	"sticktop": "item/tools/silk_touchaxe",
 	"efficiencytop": "#sticktop",
-	"sticktop2": "item/tools/rings/diamond",
+	"sticktop2": "#orb",
 	"orb": "item/tools/rings/black_smite",
 	"ring": "#sticktop2",
 	"ring2": "#ring"

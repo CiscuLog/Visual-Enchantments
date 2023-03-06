@@ -2,7 +2,7 @@
   "parent": "minecraft:item/axes/netherite_axe",
   "textures": {
 	"base": "item/tools/vanishing/netherite_axe",
-	"sticktop2": "item/tools/rings/netherite",
+	"sticktop2": "#orb",
 	"orb": "item/tools/rings/black_smite",
 	"ring": "#sticktop2",
 	"ring2": "#ring",
