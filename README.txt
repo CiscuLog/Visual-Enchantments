@@ -1,8 +1,13 @@
-COMPATIBLE GAME VERSIONS: 1.15 to 1.19.2 (until further notice)
+COMPATIBLE GAME VERSIONS: 1.15 to 1.19.4 (until further notice)
 OptiFine or CIT-related mods required.
-Required settings:
+Required OptiFine settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
+
+Changes in VisualEnchantments 3.2.4 (27/03/2023)
++ Updated to 1.19.4
++ Changed Mending on armor items
+- Removed invisible glint, now players can decide if they want to keep the glint or deactivate it with the new 1.19.4 settings
 
 Changes in VisualEnchantments 3.2.3 (06/03/2023)
 + Changed Punch + Mending interaction on bows
@@ -25,6 +30,8 @@ Changes in VisualEnchantments 3.2.0 (24/02/2023)
 + Changed textures for all armor enchantments
 + Changed Curse of Binding enchanted book
 - Reduced the amount of enchantments displayed on worn armor to 1
+
+---------------------------------------------------------
 
 Changes in VisualEnchantments 3.1.1 (13/02/2023)
 + Fixed Swift Sneak on Leather Leggings

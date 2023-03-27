@@ -347,15 +347,29 @@
 			}
 		},
 		{
-			"from": [0, 0, 7.5],
-			"to": [2, 2, 8.5],
+			"name": "mending",
+			"from": [0, 0, 7.45],
+			"to": [3, 3, 8.55],
 			"faces": {
-				"north": {"uv": [2, 14, 0, 16], "texture": "#mending"},
-				"east": {"uv": [1, 14, 2, 16], "texture": "#mending"},
-				"south": {"uv": [0, 14, 2, 16], "texture": "#mending"},
-				"west": {"uv": [0, 14, 1, 16], "texture": "#mending"},
-				"up": {"uv": [0, 14, 2, 15], "texture": "#mending"},
-				"down": {"uv": [0, 15, 2, 16], "texture": "#mending"}
+				"north": {"uv": [3, 13, 0, 16], "texture": "#mending"},
+				"east": {"uv": [2, 13, 3, 16], "texture": "#mending"},
+				"south": {"uv": [0, 13, 3, 16], "texture": "#mending"},
+				"west": {"uv": [0, 13, 1, 16], "texture": "#mending"},
+				"up": {"uv": [0, 13, 3, 14], "texture": "#mending"},
+				"down": {"uv": [0, 15, 3, 16], "texture": "#mending"}
+			}
+		},
+		{
+			"name": "mending",
+			"from": [1, 1, 8.55],
+			"to": [2, 2, 7.45],
+			"faces": {
+				"north": {"uv": [2, 14, 1, 15], "texture": "#mending"},
+				"east": {"uv": [2, 13, 3, 16], "texture": "#mending"},
+				"south": {"uv": [1, 14, 2, 15], "texture": "#mending"},
+				"west": {"uv": [0, 13, 1, 16], "texture": "#mending"},
+				"up": {"uv": [0, 13, 3, 14], "texture": "#mending"},
+				"down": {"uv": [0, 15, 3, 16], "texture": "#mending"}
 			}
 		}
 	],
