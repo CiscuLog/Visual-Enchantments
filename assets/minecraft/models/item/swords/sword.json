@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "item/sword/loot/vanishing/iron_sword",
-		"base": "item/sword/loot/vanishing/iron_sword",
+		"particle": "item/sword/base/iron_sword",
+		"base": "item/sword/base/iron_sword",
 		"bottom": "#base",
 		"grip": "#base",
 		"orb2": "#base",
