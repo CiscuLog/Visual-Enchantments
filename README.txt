@@ -4,6 +4,13 @@ Required OptiFine settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
 
+Changes in VisualEnchantments 3.2.5 (03/04/2023)
++ Fixed some errors when using CITResewn reported by MeeniMc
++ Corrected deprecated crossbow syntax
++ Corrected typos
+- Removed duplicate files
+- Removed unused files
+
 Changes in VisualEnchantments 3.2.4 (27/03/2023)
 + Updated to 1.19.4
 + Changed Mending on armor items
