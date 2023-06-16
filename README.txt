@@ -1,8 +1,11 @@
-COMPATIBLE GAME VERSIONS: 1.15 to 1.19.4 (until further notice)
+COMPATIBLE GAME VERSIONS: 1.15 to 1.20 (until further notice)
 OptiFine or CIT-related mods required.
 Required OptiFine settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
+
+Changes in VisualEnchantments 3.2.6 (16/06/2023)
++ Updated to 1.20
 
 Changes in VisualEnchantments 3.2.5 (03/04/2023)
 + Fixed some errors when using CITResewn reported by MeeniMc
