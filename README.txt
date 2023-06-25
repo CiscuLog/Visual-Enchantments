@@ -4,6 +4,10 @@ Required OptiFine settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
 
+Changes in VisualEnchantments 3.2.7 (25/06/2023)
++ Added enchanted Brushes
++ Fixed fishing rods with Luck of the Sea not casting its hook
+
 Changes in VisualEnchantments 3.2.6 (16/06/2023)
 + Updated to 1.20
 

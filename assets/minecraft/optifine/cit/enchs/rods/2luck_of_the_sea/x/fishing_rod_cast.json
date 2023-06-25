@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/rods/fishing_rod_cast",
-  "textures": {
-	"bait": "item/rods/luck_of_the_sea"
-	}
+  "parent": "minecraft:item/rods/fishing_rod_cast"
 }
