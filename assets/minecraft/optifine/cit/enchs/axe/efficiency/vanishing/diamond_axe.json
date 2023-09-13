@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/axe",
-  "textures": {
-	"base": "item/tools/vanishing/diamond_axe",
-	"efficiency": "item/tools/efficiency",
-	"efficiencytop": "item/tools/efficiency"
-	}
-}

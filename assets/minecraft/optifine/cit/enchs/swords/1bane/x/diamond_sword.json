@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:item/swords/diamond_sword",
-  "textures": {
-	"base": "item/sword/bane/diamond_sword"
-	}
-}
+{"parent": "minecraft:item/swords/diamond_sword","textures":{"base":"item/sword/bane/diamond_sword"}}

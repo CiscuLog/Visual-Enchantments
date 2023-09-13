@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/axe",
-  "textures": {
-	"base": "item/tools/vanishing/wooden_axe"
-	}
-}

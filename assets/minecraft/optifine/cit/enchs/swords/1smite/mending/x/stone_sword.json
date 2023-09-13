@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/swords/stone_sword",
-  "textures": {
-	"base": "item/sword/smite/stone_sword",
-	"bottom": "item/sword/mending",
-	"orb2": "item/sword/orbs/skeletonm1"
-	}
-}

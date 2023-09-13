@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/axes/diamond_axe",
-  "textures": {
-	"efficiency": "item/tools/efficiency",
-	"efficiencytop": "#efficiency",
-	"stick": "item/tools/unbreaking"
-	}
-}

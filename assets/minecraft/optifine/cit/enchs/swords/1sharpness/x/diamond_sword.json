@@ -1,7 +1,1 @@
-{
-  "parent": "minecraft:item/swords/diamond_sword",
-  "textures": {
-	"orb2": "item/sword/orbs/sharpness",
-	"ring2": "item/sword/orbs/diamond"
-	}
-}
+{"parent": "minecraft:item/swords/diamond_sword","textures":{"base":"item/sword/sharpness/diamond_sword"}}

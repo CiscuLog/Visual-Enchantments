@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/axes/netherite_axe",
-  "textures": {
-	"stickbottom": "item/tools/mendingaxe"
-	}
-}

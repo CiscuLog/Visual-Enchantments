@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/swords/stone_sword",
-  "textures": {
-	"bottom": "item/sword/mending",
-	"grip": "item/sword/unbreaking"
-	}
-}

@@ -1,7 +1,1 @@
-{
-  "parent": "minecraft:item/swords/golden_sword",
-  "textures": {
-	"orb2": "item/sword/orbs/sharpness",
-	"ring2": "item/sword/orbs/gold"
-	}
-}
+{"parent": "minecraft:item/swords/golden_sword","textures":{"base":"item/sword/sharpness/golden_sword"}}

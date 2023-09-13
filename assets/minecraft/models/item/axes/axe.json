@@ -1,0 +1,15 @@
+{
+	"parent":"item/axes/axebase",
+	"textures": {
+		"base": "item/axe/sharpness/iron_axe",
+		"stick": "#base",
+		"efficiency": "#stick",
+		"efficiency2": "#efficiency",
+		"efficiency3": "#efficiency2",
+		"efficiency4": "#base",
+		"cap": "#base",
+		"stick_top": "#stick",
+		"mending": "#stick",
+		"particle": "#base"
+	}
+}

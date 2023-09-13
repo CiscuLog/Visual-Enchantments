@@ -4,6 +4,17 @@ Required OptiFine settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
 
+Changes in VisualEnchantments 3.3.0 (14/09/2023)
++ Changed Sword model
++ Changed Axe model
++ Changed Sharpness textures on swords, axes, books and font
++ Changed Smite textures on swords, axes, books and font
++ Changed Bane of Arthropods on swords, axes, books and font
++ Changed Looting textures on swords, books and font
++ Changed Knockback texture on swords
++ Changed Mending texture on swords
++ Changed soul speed texture on worn boots
+
 Changes in VisualEnchantments 3.2.7 (25/06/2023)
 + Added enchanted Brushes
 + Fixed fishing rods with Luck of the Sea not casting its hook

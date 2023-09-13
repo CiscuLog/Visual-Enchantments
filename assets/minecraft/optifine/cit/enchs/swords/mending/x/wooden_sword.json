@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/swords/wooden_sword",
-  "textures": {
-	"bottom": "item/sword/mending"
-	}
-}

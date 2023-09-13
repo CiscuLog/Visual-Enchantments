@@ -1,9 +1,1 @@
-{
-  "parent": "minecraft:item/swords/longsword",
-  "textures": {
-	"base": "item/sword/sweep/golden_sword",
-	"base2": "item/sword/base/golden_sword",
-	"orb2": "item/sword/orbs/sharpness",
-	"ring2": "item/sword/orbs/gold"
-	}
-}
+{"parent": "minecraft:item/swords/longsword","textures":{"base":"item/sword/sharpness/golden_sword","blade":"item/sword/sweeping/sharpness/golden_sword"}}

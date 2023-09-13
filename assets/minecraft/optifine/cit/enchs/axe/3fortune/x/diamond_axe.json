@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/axes/diamond_axe",
-  "textures": {
-	"sticktop": "item/tools/fortuneaxe",
-	"orb": "item/tools/fortuneaxe",
-	"efficiencytop": "item/tools/fortuneaxe"
-	}
-}

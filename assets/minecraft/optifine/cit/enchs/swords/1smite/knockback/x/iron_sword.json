@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/swords/iron_sword",
-  "textures": {
-	"base": "item/sword/smite/iron_sword",
-	"grip": "item/sword/knockback",
-	"guard": "#grip"
-	}
-}

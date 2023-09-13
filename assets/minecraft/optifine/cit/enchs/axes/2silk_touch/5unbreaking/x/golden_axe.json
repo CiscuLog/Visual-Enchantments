@@ -1,0 +1,1 @@
+{"parent": "minecraft:item/axes/golden_axe","textures":{"base":"item/axe/base/golden_axe","blade":"item/axe/golden_axe","cap":"item/axe/silk_touch","efficiency2":"#cap","efficiency4":"#cap","stick_top":"#cap","efficiency3":"#efficiency4","stick":"item/axe/unbreaking"}}

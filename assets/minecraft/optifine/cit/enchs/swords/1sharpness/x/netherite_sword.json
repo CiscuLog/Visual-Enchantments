@@ -1,7 +1,1 @@
-{
-  "parent": "minecraft:item/swords/netherite_sword",
-  "textures": {
-	"orb2": "item/sword/orbs/sharpness",
-	"ring2": "item/sword/orbs/netherite"
-	}
-}
+{"parent": "minecraft:item/swords/netherite_sword","textures":{"base":"item/sword/sharpness/netherite_sword"}}

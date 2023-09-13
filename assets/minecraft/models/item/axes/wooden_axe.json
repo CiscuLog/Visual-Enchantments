@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/axe",
+  "parent": "minecraft:item/axes/axe",
   "textures": {
 	"base": "item/wooden_axe"
 	}

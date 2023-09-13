@@ -1,0 +1,1 @@
+{"parent": "minecraft:item/axes/diamond_axe","textures":{"base":"item/axe/smite/vanishing/diamond_axe","blade":"item/axe/smite/vanishing/diamond_axe","cap":"item/axe/silk_touch","efficiency2":"#cap","efficiency4":"#cap","stick_top":"#cap","efficiency3":"#efficiency4"}}

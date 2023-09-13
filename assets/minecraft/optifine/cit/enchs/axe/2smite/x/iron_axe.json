@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:item/axes/iron_axe",
-  "textures": {
-	"sticktop2": "#orb",
-	"orb": "item/tools/rings/smite",
-	"ring": "#sticktop2",
-	"ring2": "#ring"
-	}
-}
