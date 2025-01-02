@@ -350,6 +350,33 @@
 			"chars": [
 				"\uE684"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/breach.png",
+			"ascent": 9,
+			"height": 10,
+			"chars": [
+				"\uE685"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/density.png",
+			"ascent": 9,
+			"height": 10,
+			"chars": [
+				"\uE686"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/wind_burst.png",
+			"ascent": 9,
+			"height": 10,
+			"chars": [
+				"\uE687"
+			]
 		}
 	]
 }

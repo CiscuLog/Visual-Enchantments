@@ -1,8 +1,18 @@
-COMPATIBLE GAME VERSIONS: 1.15 to 1.20 (until further notice)
+COMPATIBLE GAME VERSIONS: 1.20.5 to 1.21.3 (until further notice)
 OptiFine or CIT-related mods required.
 Required OptiFine settings:
 	- Custom Items: ON
 	- Emissive Textures: ON
+
+Changes in VisualEnchantments 4.0.0 (03/01/2025)
++ Updated pack to the components item format
++ Added enchanted maces
++ Added wind burst enchantment
++ Added density enchantment
++ Added breach enchantment
+- Removed renaming books to obtain false textures
+- Removed leather armor textures
+- Removed worn armor textures, to be re-added in the future
 
 Changes in VisualEnchantments 3.3.1 (01/10/2023)
 + Added missing visual brushes
