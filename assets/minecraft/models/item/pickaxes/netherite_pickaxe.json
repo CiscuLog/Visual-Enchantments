@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/pickaxe",
-  "textures": {
-	"base": "item/netherite_pickaxe"
-	}
-}

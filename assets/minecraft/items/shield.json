@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "mending"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "item/shield/mending"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "item/shield/mending"
+          },
+          "property": "minecraft:using_item"
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "minecraft:condition",
+        "on_false": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/shield",
+          "model": {
+            "type": "minecraft:shield"
+          }
+        },
+        "on_true": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/shield_blocking",
+          "model": {
+            "type": "minecraft:shield"
+          }
+        },
+        "property": "minecraft:using_item"
+      }
+    ]
+  }
+}

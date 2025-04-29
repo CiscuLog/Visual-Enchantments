@@ -1,0 +1,6 @@
+{
+    "parent": "item/mace",
+    "textures": {
+        "layer0": "item/mace/bane_of_arthropods_vanishing"
+    }
+}

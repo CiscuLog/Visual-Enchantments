@@ -1,6 +1,0 @@
-{
-	"parent":"minecraft:item/crossbow/multishot_crossbow_standby",
-	"textures": {
-		"string": "item/crossbow/mending"
-	}
-}

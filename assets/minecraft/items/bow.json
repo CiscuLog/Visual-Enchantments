@@ -1,0 +1,317 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "unbreaking"}],
+        "on_true": {
+          "type": "condition",
+          "property": "component",
+          "predicate": "enchantments",
+          "value": [{"enchantments": "vanishing_curse"}],
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/unbreakingvanishing" },
+            "on_true": {
+              "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+              "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/unbreakingvanishing_pulling_0" },
+              "entries": [
+                { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/unbreakingvanishing_pulling_1" }, "threshold": 0.65 },
+                { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/unbreakingvanishing_pulling_2" }, "threshold": 0.9 } ]
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/unbreaking" },
+            "on_true": {
+              "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+              "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/unbreaking_pulling_0" },
+              "entries": [
+                { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/unbreaking_pulling_1" }, "threshold": 0.65 },
+                { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/unbreaking_pulling_2" }, "threshold": 0.9 } ]
+            }
+          }
+        },
+        "on_false": {
+          "type": "condition",
+          "property": "component",
+          "predicate": "enchantments",
+          "value": [{"enchantments": "vanishing_curse"}],
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/vanishing" },
+            "on_true": {
+              "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+              "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/vanishing_pulling_0" },
+              "entries": [
+                { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/vanishing_pulling_1" }, "threshold": 0.65 },
+                { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/vanishing_pulling_2" }, "threshold": 0.9 } ]
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/bow" },
+            "on_true": {
+              "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+              "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/bow_pulling_0" },
+              "entries": [
+                { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/bow_pulling_1" }, "threshold": 0.65 },
+                { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/bow_pulling_2" }, "threshold": 0.9 } ]
+            }
+          }
+        }
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "mending"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/mending" },
+          "on_true": {
+            "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+            "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/mending_pulling_0" },
+            "entries": [
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/mending_pulling_1" }, "threshold": 0.65 },
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/mending_pulling_2" }, "threshold": 0.9 } ]
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/bow" },
+          "on_true": {
+            "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+            "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/bow_pulling_0" },
+            "entries": [
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/bow_pulling_1" }, "threshold": 0.65 },
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/bow_pulling_2" }, "threshold": 0.9 } ]
+          }
+        }
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "punch"}],
+        "on_false": {"type": "empty"},
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/punch" },
+          "on_true": {
+            "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+            "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/punch_pulling_0" },
+            "entries": [
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/punch_pulling_1" }, "threshold": 0.65 },
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/strings/punch_pulling_2" }, "threshold": 0.9 } ]
+          }
+        }
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "infinity"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": { "type": "minecraft:model", "model": "item/bow/bows/infinity" },
+          "on_true": {
+            "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+            "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/infinity_pulling_0" },
+            "entries": [
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/infinity_pulling_1" }, "threshold": 0.65 },
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/infinity_pulling_2" }, "threshold": 0.9 } ]
+          }
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "power"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": { "type": "minecraft:model", "model": "item/bow/bows/power" },
+          "on_true": {
+            "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+            "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/power_pulling_0" },
+            "entries": [
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/power_pulling_1" }, "threshold": 0.65 },
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/power_pulling_2" }, "threshold": 0.9 } ]
+          }
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "flame"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": { "type": "minecraft:model", "model": "item/bow/bows/flame" },
+          "on_true": {
+            "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+            "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/flame_pulling_0" },
+            "entries": [
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/flame_pulling_1" }, "threshold": 0.65 },
+              { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/bows/flame_pulling_2" }, "threshold": 0.9 } ]
+          }
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "infinity"}],
+        "on_true": {
+          "type": "condition",
+          "property": "component",
+          "predicate": "enchantments",
+          "value": [{"enchantments": "flame"}],
+          "on_true": {
+            "type": "condition",
+            "property": "component",
+            "predicate": "enchantments",
+            "value": [{"enchantments": "punch"}],
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": { "type": "minecraft:empty" },
+              "on_true": {
+                "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+                "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infiniflame_punch_0" },
+                "entries": [
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infiniflame_punch_1" }, "threshold": 0.65 },
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infiniflame_punch_2" }, "threshold": 0.9 } ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": { "type": "minecraft:empty" },
+              "on_true": {
+                "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+                "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infiniflame_0" },
+                "entries": [
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infiniflame_1" }, "threshold": 0.65 },
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infiniflame_2" }, "threshold": 0.9 } ]
+              }
+            }
+          },
+          "on_false": {
+            "type": "condition",
+            "property": "component",
+            "predicate": "enchantments",
+            "value": [{"enchantments": "punch"}],
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": { "type": "minecraft:empty" },
+              "on_true": {
+                "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+                "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infinipunch_0" },
+                "entries": [
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infinipunch_1" }, "threshold": 0.65 },
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infiniflame_punch_2" }, "threshold": 0.9 } ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": { "type": "minecraft:empty" },
+              "on_true": {
+                "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+                "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infinity_0" },
+                "entries": [
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infinity_1" }, "threshold": 0.65 },
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/infinity_2" }, "threshold": 0.9 } ]
+              }
+            }
+          }
+        },
+        "on_false": {
+          "type": "condition",
+          "property": "component",
+          "predicate": "enchantments",
+          "value": [{"enchantments": "flame"}],
+          "on_true": {
+            "type": "condition",
+            "property": "component",
+            "predicate": "enchantments",
+            "value": [{"enchantments": "punch"}],
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": { "type": "minecraft:empty" },
+              "on_true": {
+                "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+                "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/flame_punch_0" },
+                "entries": [
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/flame_punch_1" }, "threshold": 0.65 },
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/flame_punch_2" }, "threshold": 0.9 } ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": { "type": "minecraft:empty" },
+              "on_true": {
+                "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+                "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/flame_0" },
+                "entries": [
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/flame_1" }, "threshold": 0.65 },
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/flame_2" }, "threshold": 0.9 } ]
+              }
+            }
+          },
+          "on_false": {
+            "type": "condition",
+            "property": "component",
+            "predicate": "enchantments",
+            "value": [{"enchantments": "punch"}],
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": { "type": "minecraft:empty" },
+              "on_true": {
+                "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+                "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/punch_0" },
+                "entries": [
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/punch_1" }, "threshold": 0.65 },
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/punch_2" }, "threshold": 0.9 } ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": { "type": "minecraft:empty" },
+              "on_true": {
+                "type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05,
+                "fallback": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/arrow_0" },
+                "entries": [
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/arrow_1" }, "threshold": 0.65 },
+                  { "model": { "type": "minecraft:model", "model": "minecraft:item/bow/arrows/arrow_2" }, "threshold": 0.9 } ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

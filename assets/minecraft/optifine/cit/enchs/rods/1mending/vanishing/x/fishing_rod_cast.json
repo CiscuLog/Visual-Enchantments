@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/rods/fishing_rod_cast",
-  "textures": {
-	"base": "item/rods/vanishing",
-	"clock": "item/rods/mending"
-	}
-}

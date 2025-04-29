@@ -1,0 +1,75 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [
+          {
+            "enchantments": "vanishing_curse"
+          }
+        ],
+        "on_true": {
+          "type": "condition",
+          "property": "component",
+          "predicate": "enchantments",
+          "value": [
+            {
+              "enchantments": "unbreaking"
+            }
+          ],
+          "on_true": {
+            "type": "model",
+            "model": "item/carrot_on_a_stick/unbreaking_vanishing"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/carrot_on_a_stick/vanishing"
+          }
+        },
+        "on_false": {
+          "type": "condition",
+          "property": "component",
+          "predicate": "enchantments",
+          "value": [
+            {
+              "enchantments": "unbreaking"
+            }
+          ],
+          "on_true": {
+            "type": "model",
+            "model": "item/carrot_on_a_stick/unbreaking"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/carrot_on_a_stick/base"
+          }
+        }
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [
+          {
+            "enchantments": "mending"
+          }
+        ],
+        "on_true": {
+          "type": "model",
+          "model": "item/carrot_on_a_stick/mending"
+        },
+        "on_false": {
+          "type": "empty"
+        }
+      },
+      {
+        "type": "model",
+        "model": "item/carrot_on_a_stick/carrot"
+      }
+    ]
+  }
+}

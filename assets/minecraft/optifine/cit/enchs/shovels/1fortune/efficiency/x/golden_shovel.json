@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/shovels/golden_shovel",
-  "textures": {
-	"head": "item/tools/fortuneshovel",
-	"efficiencytop": "#head",
-	"efficiency": "item/tools/efficiency"
-	}
-}

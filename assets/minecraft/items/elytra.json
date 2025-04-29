@@ -1,0 +1,92 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [
+          {
+            "enchantments": "vanishing_curse"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytra/vanishing"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytra/vanishing_broken"
+          },
+          "property": "minecraft:broken"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytra_broken"
+          },
+          "property": "minecraft:broken"
+        }
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [
+          {
+            "enchantments": "unbreaking"
+          }
+        ],
+        "on_true": {
+          "type": "model",
+          "model": "item/elytra/unbreaking"
+        },
+        "on_false": {
+          "type": "empty"
+        }
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [
+          {
+            "enchantments": "mending"
+          }
+        ],
+        "on_true": {
+          "type": "model",
+          "model": "item/elytra/mending"
+        },
+        "on_false": {
+          "type": "empty"
+        }
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [
+          {
+            "enchantments": "binding_curse"
+          }
+        ],
+        "on_true": {
+          "type": "model",
+          "model": "item/elytra/binding"
+        },
+        "on_false": {
+          "type": "empty"
+        }
+      }
+    ]
+  }
+}

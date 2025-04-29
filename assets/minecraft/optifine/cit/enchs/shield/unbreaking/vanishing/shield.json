@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/shieldtemplate",
-  "textures": {
-	"0": "item/shield/unbreakingvanishing"
-	}
-}

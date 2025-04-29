@@ -1,0 +1,6 @@
+{
+    "parent": "item/flat_plane",
+    "textures": {
+        "layer0": "item/mace/wind"
+    }
+}

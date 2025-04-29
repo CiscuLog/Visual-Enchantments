@@ -1,0 +1,6 @@
+{
+    "parent": "item/shield",
+    "textures": {
+        "layer0": "item/shield/mending"
+    }
+}

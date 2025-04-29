@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/shovel",
-  "textures": {
-	"base": "item/golden_shovel"
-	}
-}

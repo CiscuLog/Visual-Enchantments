@@ -1,6 +1,0 @@
-{
-	"parent":"minecraft:item/crossbow/multishot_crossbow_pulling_2",
-	"textures": {
-		"base": "item/crossbow/vanishing"
-	}
-}

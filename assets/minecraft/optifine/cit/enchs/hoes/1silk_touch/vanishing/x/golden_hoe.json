@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/hoes/golden_hoe",
-  "textures": {
-	"base": "item/tools/vanishing/golden_hoe",
-	"top": "item/tools/silk_touch",
-	"sticktop": "item/tools/silk_touch"
-	}
-}

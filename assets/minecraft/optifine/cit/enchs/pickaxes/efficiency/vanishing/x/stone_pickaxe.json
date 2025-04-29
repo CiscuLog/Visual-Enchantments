@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/pickaxes/stone_pickaxe",
-  "textures": {
-	"base": "item/tools/vanishing/stone_pickaxe",
-	"efficiency": "item/tools/efficiency",
-	"efficiencytop": "item/tools/efficiency"
-	}
-}

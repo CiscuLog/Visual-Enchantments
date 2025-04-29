@@ -1,6 +1,0 @@
-{
-	"parent":"minecraft:item/crossbow/multishot_crossbow_firework",
-	"textures": {
-		"base": "item/crossbow/unbreaking"
-	}
-}

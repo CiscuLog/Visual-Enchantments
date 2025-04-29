@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/rods/carrot_on_a_stick",
-  "textures": {
-	"base": "item/rods/unbreaking"
-	}
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/hoes/wooden_hoe",
-  "textures": {
-	"stickbottom": "item/tools/mending"
-	}
-}

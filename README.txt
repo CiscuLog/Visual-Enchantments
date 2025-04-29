@@ -1,8 +1,14 @@
-COMPATIBLE GAME VERSIONS: 1.20.5 to 1.21.3 (until further notice)
-OptiFine or CIT-related mods required.
-Required OptiFine settings:
-	- Custom Items: ON
-	- Emissive Textures: ON
+COMPATIBLE GAME VERSIONS: 1.21.5
+
+Changes in VisualEnchantments 5.0.0 (29/04/2025)
++ Updated to 1.21.5
++ Updated to minecraft vanilla. Modded Clients are no longer required to use the resourcepack
++ Added Enchanted Books can now display multiple enchantments. The way they overlap depends on the position they occupy in the texture. If two enchantments would conflict with eachother in the positioning of the texture, only one will be displayed
++ Changed Mending in Shovels is now displayed as with other tools
++ Changed Unbreaking textures on elytras
++ Changed Curse of Binding textures on elytras
+- Removed enchanted shields
+- Removed enchanted pumpkins
 
 Changes in VisualEnchantments 4.0.0 (03/01/2025)
 + Updated pack to the components item format

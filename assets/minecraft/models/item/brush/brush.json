@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:item/brush/brush_base",
-	"textures": {
-		"base": "item/brush/brush",
-		"handle": "#base",
-		"copper": "#handle",
-		"particle": "#copper"
-	}
-}

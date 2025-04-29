@@ -1,0 +1,6 @@
+{
+    "parent": "item/32x_item",
+    "textures": {
+        "layer0": "item/sword/blade/smite/iron_sword"
+    }
+}

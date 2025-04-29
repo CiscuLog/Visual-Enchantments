@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/axes/axe",
-  "textures": {
-	"base": "item/diamond_axe"
-	}
-}

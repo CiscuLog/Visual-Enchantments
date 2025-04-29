@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/hoes/netherite_hoe",
-  "textures": {
-	"stickbottom": "item/tools/mending"
-	}
-}

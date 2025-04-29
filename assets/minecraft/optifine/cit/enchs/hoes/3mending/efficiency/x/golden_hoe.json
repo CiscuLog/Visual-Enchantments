@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/hoes/golden_hoe",
-  "textures": {
-	"efficiency": "item/tools/efficiency",
-	"efficiencytop": "#efficiency",
-	"stickbottom": "item/tools/mending"
-	}
-}

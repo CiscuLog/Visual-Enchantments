@@ -1,0 +1,6 @@
+{
+    "parent": "item/iron_boots",
+    "textures": {
+        "layer0": "item/armor/boots/depth_strider"
+    }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/shovels/golden_shovel",
-  "textures": {
-	"stick": "item/tools/unbreakingshovel"
-	}
-}

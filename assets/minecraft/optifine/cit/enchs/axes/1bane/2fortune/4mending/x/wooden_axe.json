@@ -1,1 +1,0 @@
-{"parent": "minecraft:item/axes/wooden_axe","textures":{"base":"item/axe/bane/wooden_axe","blade":"item/axe/bane/wooden_axe","cap":"item/axe/fortune","efficiency2":"#cap","efficiency4":"#cap","stick_top":"#cap","efficiency3":"#efficiency4","mending":"item/axe/mending"}}

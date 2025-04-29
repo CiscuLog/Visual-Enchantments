@@ -1,0 +1,324 @@
+{
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "mending"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/mending"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "fire_aspect"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/fire_aspect"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "vanishing_curse"}],
+                "on_true": {"type": "model","model": "item/enchanted_book/vanishing"},
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "stored_enchantments",
+                    "value": [{"enchantments": "unbreaking"}],
+                    "on_true": {"type": "model","model": "item/enchanted_book/unbreaking"},
+                    "on_false": {"type": "model","model": "item/enchanted_book"}
+                }
+            },
+            {
+                "type": "composite",
+                "models": [
+                    {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "stored_enchantments",
+                        "value": [{"enchantments": "infinity"}],
+                        "on_true": {"type": "model","model": "item/enchanted_book/infinity"},
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "stored_enchantments",
+                            "value": [{"enchantments": "multishot"}],
+                            "on_true": {"type": "model","model": "item/enchanted_book/multishot"},
+                            "on_false": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "stored_enchantments",
+                                "value": [{"enchantments": "respiration"}],
+                                "on_true": {"type": "model","model": "item/enchanted_book/respiration"},
+                                "on_false": {
+                                    "type": "condition",
+                                    "property": "component",
+                                    "predicate": "stored_enchantments",
+                                    "value": [{"enchantments": "depth_strider"}],
+                                    "on_true": {"type": "model","model": "item/enchanted_book/depth_strider"},
+                                    "on_false": {
+                                        "type": "condition",
+                                        "property": "component",
+                                        "predicate": "stored_enchantments",
+                                        "value": [{"enchantments": "aqua_affinity"}],
+                                        "on_true": {"type": "model","model": "item/enchanted_book/aqua_affinity"},
+                                        "on_false": {
+                                            "type": "condition",
+                                            "property": "component",
+                                            "predicate": "stored_enchantments",
+                                            "value": [{"enchantments": "lure"}],
+                                            "on_true": {"type": "model","model": "item/enchanted_book/lure"},
+                                            "on_false": {
+                                                "type": "condition",
+                                                "property": "component",
+                                                "predicate": "stored_enchantments",
+                                                "value": [{"enchantments": "piercing"}],
+                                                "on_true": {"type": "model","model": "item/enchanted_book/piercing"},
+                                                "on_false": {
+                                                    "type": "condition",
+                                                    "property": "component",
+                                                    "predicate": "stored_enchantments",
+                                                    "value": [{"enchantments": "quick_charge"}],
+                                                    "on_true": {"type": "model","model": "item/enchanted_book/quick_charge"},
+                                                    "on_false": {"type": "empty"}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "stored_enchantments",
+                        "value": [{"enchantments": "luck_of_the_sea"}],
+                        "on_true": {"type": "model","model": "item/enchanted_book/luck_of_the_sea"},
+                        "on_false": {"type": "empty"}
+                    }
+                ]
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "thorns"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/thorns"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "protection"}],
+                "on_true": {"type": "model","model": "item/enchanted_book/protection"},
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "stored_enchantments",
+                    "value": [{"enchantments": "blast_protection"}],
+                    "on_true": {"type": "model","model": "item/enchanted_book/blast_protection"},
+                    "on_false": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "stored_enchantments",
+                        "value": [{"enchantments": "fire_protection"}],
+                        "on_true": {"type": "model","model": "item/enchanted_book/fire_protection"},
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "stored_enchantments",
+                            "value": [{"enchantments": "projectile_protection"}],
+                            "on_true": {"type": "model","model": "item/enchanted_book/projectile_protection"},
+                            "on_false": {"type": "empty"}
+                        }
+                    }
+                }
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "silk_touch"}],
+                "on_true": {"type": "model","model": "item/enchanted_book/silk_touch"},
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "stored_enchantments",
+                    "value": [{"enchantments": "fortune"}],
+                    "on_true": {"type": "model","model": "item/enchanted_book/fortune"},
+                    "on_false": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "stored_enchantments",
+                        "value": [{"enchantments": "efficiency"}],
+                        "on_true": {"type": "model","model": "item/enchanted_book/efficiency"},
+                        "on_false": {"type": "empty"}
+                    }
+                }
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "frost_walker"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/frost_walker"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "swift_sneak"}],
+                "on_true": {"type": "model","model": "item/enchanted_book/swift_sneak"},
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "stored_enchantments",
+                    "value": [{"enchantments": "soul_speed"}],
+                    "on_true": {"type": "model","model": "item/enchanted_book/soul_speed"},
+                    "on_false": 
+                    {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "stored_enchantments",
+                        "value": [{"enchantments": "feather_falling"}],
+                        "on_true": {"type": "model","model": "item/enchanted_book/feather_falling"},
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "stored_enchantments",
+                            "value": [{"enchantments": "sharpness"}],
+                            "on_true": {"type": "model","model": "item/enchanted_book/sharpness"},
+                            "on_false": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "stored_enchantments",
+                                "value": [{"enchantments": "impaling"}],
+                                "on_true": {"type": "model","model": "item/enchanted_book/impaling"},
+                                "on_false": {
+                                    "type": "condition",
+                                    "property": "component",
+                                    "predicate": "stored_enchantments",
+                                    "value": [{"enchantments": "bane_of_arthropods"}],
+                                    "on_true": {"type": "model","model": "item/enchanted_book/bane"},
+                                    "on_false": {
+                                        "type": "condition",
+                                        "property": "component",
+                                        "predicate": "stored_enchantments",
+                                        "value": [{"enchantments": "smite"}],
+                                        "on_true": {"type": "model","model": "item/enchanted_book/smite"},
+                                        "on_false": {
+                                            "type": "condition",
+                                            "property": "component",
+                                            "predicate": "stored_enchantments",
+                                            "value": [{"enchantments": "knockback"}],
+                                            "on_true": {"type": "model","model": "item/enchanted_book/knockback"},
+                                            "on_false": {
+                                                "type": "condition",
+                                                "property": "component",
+                                                "predicate": "stored_enchantments",
+                                                "value": [{"enchantments": "sweeping_edge"}],
+                                                "on_true": {"type": "model","model": "item/enchanted_book/sweeping"},
+                                                "on_false": {
+                                                    "type": "condition",
+                                                    "property": "component",
+                                                    "predicate": "stored_enchantments",
+                                                    "value": [{"enchantments": "power"}],
+                                                    "on_true": {"type": "model","model": "item/enchanted_book/power"},
+                                                    "on_false": {
+                                                        "type": "condition",
+                                                        "property": "component",
+                                                        "predicate": "stored_enchantments",
+                                                        "value": [{"enchantments": "punch"}],
+                                                        "on_true": {"type": "model","model": "item/enchanted_book/punch"},
+                                                        "on_false": {"type": "empty"}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "looting"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/looting"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "flame"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/flame"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "riptide"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/riptide"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "channeling"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/channeling"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "loyalty"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/loyalty"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "wind_burst"}],
+                "on_true": {"type": "model","model": "item/enchanted_book/wind_burst"},
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "stored_enchantments",
+                    "value": [{"enchantments": "density"}],
+                    "on_true": {"type": "model","model": "item/enchanted_book/density"},
+                    "on_false": {                        
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "stored_enchantments",
+                        "value": [{"enchantments": "breach"}],
+                        "on_true": {"type": "model","model": "item/enchanted_book/breach"},
+                        "on_false": {"type": "empty"}
+                    }
+                }
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "stored_enchantments",
+                "value": [{"enchantments": "binding_curse"}],
+                "on_false": {"type": "empty"},
+                "on_true": {"type": "model","model": "item/enchanted_book/binding"}
+            }
+        ]
+    }
+}

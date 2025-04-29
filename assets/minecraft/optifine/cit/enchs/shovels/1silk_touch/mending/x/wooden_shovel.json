@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/shovels/wooden_shovel",
-  "textures": {
-	"head": "item/tools/silk_touchshovel",
-	"efficiencytop": "#head",
-	"bottom": "item/tools/mending"
-	}
-}

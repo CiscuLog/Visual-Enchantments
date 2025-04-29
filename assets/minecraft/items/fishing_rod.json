@@ -1,0 +1,63 @@
+{
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "unbreaking"}],
+                "on_true": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "vanishing_curse"}],
+                    "on_true": {"type": "model", "model": "item/fishing_rod/unbreaking_vanishing"},
+                    "on_false": {"type": "model", "model": "item/fishing_rod/unbreaking"}
+                },
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "vanishing_curse"}],
+                    "on_true": {"type": "model", "model": "item/fishing_rod/vanishing"},
+                    "on_false": {"type": "model", "model": "item/fishing_rod/base"}
+                }
+            },
+            {
+                "type": "condition",
+                "property": "fishing_rod/cast",
+                "on_true": {"type": "empty"},
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "luck_of_the_sea"}],
+                    "on_true": {"type": "model", "model": "item/fishing_rod/luck_of_the_sea"},
+                    "on_false": {"type": "model", "model": "item/fishing_rod/hook"}
+                }
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "lure"}],
+                "on_true": {
+                    "type": "condition",
+                    "property": "fishing_rod/cast",
+                    "on_true": {"type": "model", "model": "item/fishing_rod/lure"},
+                    "on_false": {"type": "model", "model": "item/fishing_rod/lure_off"}
+                },
+                "on_false": {"type": "empty"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "mending"}],
+                "on_true": {"type": "model", "model": "item/fishing_rod/mending"},
+                "on_false": {"type": "empty"}
+            }
+        ]
+    }
+}

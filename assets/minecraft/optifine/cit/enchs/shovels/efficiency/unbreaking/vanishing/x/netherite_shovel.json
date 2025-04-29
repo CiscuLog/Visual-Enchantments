@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/shovels/netherite_shovel",
-  "textures": {
-	"base": "item/tools/vanishing/netherite_shovel",
-	"efficiency": "item/tools/efficiency",
-	"stick": "item/tools/unbreakingshovel"
-	}
-}

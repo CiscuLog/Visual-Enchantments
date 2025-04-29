@@ -1,0 +1,73 @@
+{
+    "hand_animation_on_swap": false,
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "vanishing_curse"}],
+                "on_true": {
+                    "type": "model",
+                    "model": "item/tools/vanishing/stone_shovel"
+                },
+                "on_false": {
+                    "type": "model",
+                    "model": "item/stone_shovel"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:unbreaking"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/tools/unbreakingshovel" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:efficiency"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/tools/efficiency" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:silk_touch"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/tools/silk_touch_shovel" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:fortune"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/tools/fortune_shovel" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:mending"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/tools/mending" },
+                "on_false": { "type": "empty" }
+            }
+        ]
+    }
+    
+}

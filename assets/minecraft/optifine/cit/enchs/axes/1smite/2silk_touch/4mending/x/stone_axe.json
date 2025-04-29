@@ -1,1 +1,0 @@
-{"parent": "minecraft:item/axes/stone_axe","textures":{"base":"item/axe/smite/stone_axe","blade":"item/axe/smite/stone_axe","cap":"item/axe/silk_touch","efficiency2":"#cap","efficiency4":"#cap","stick_top":"#cap","efficiency3":"#efficiency4","mending":"item/axe/mending"}}
