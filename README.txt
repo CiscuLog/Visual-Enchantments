@@ -1,14 +1,25 @@
 COMPATIBLE GAME VERSIONS: 1.21.5
 
+Changes in VisualEnchantments 5.0.1 (10/05/2025)
++ Added Swift Sneak on Leggings
++ Changed Fire Aspect on swords to be a flat plane
++ Changed Looting identifier has now a modified texture
++ Fixed Swords spreaing their glint to other items in the inventory
++ Fixed Mace fire and wind weren't aligning with the handheld item
+
 Changes in VisualEnchantments 5.0.0 (29/04/2025)
 + Updated to 1.21.5
 + Updated to minecraft vanilla. Modded Clients are no longer required to use the resourcepack
++ Added armor trim support
 + Added Enchanted Books can now display multiple enchantments. The way they overlap depends on the position they occupy in the texture. If two enchantments would conflict with eachother in the positioning of the texture, only one will be displayed
 + Changed Mending in Shovels is now displayed as with other tools
 + Changed Unbreaking textures on elytras
 + Changed Curse of Binding textures on elytras
++ Changed most enchantments on how they show up in enchanted books to leave room for combinations. Most of colored books have been removed except for unbreaking and vanishing
 - Removed enchanted shields
 - Removed enchanted pumpkins
+
+---------------------------------------------------------
 
 Changes in VisualEnchantments 4.0.0 (03/01/2025)
 + Updated pack to the components item format
@@ -19,6 +30,8 @@ Changes in VisualEnchantments 4.0.0 (03/01/2025)
 - Removed renaming books to obtain false textures
 - Removed leather armor textures
 - Removed worn armor textures, to be re-added in the future
+
+---------------------------------------------------------
 
 Changes in VisualEnchantments 3.3.1 (01/10/2023)
 + Added missing visual brushes

@@ -1,0 +1,24 @@
+{
+    "parent": "item/flat_plane",
+    "textures": {
+        "layer0": "item/blank"
+    },
+    "display": {
+    "thirdperson_righthand": {
+        "rotation": [ 0, -90, 55 ],
+        "translation": [ 0, 4.0, 1 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ 0, 90, -55 ],
+        "translation": [ 0, 4.0, 1 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 0, -90, 25 ],
+        "translation": [ 0, 3, 0.8 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ 0, 90, -25 ],
+        "translation": [ 0, 3, 0.8 ]
+    }
+    }
+}

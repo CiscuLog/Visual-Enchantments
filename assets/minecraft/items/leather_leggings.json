@@ -184,6 +184,16 @@
                 "property": "minecraft:component",
                 "predicate": "minecraft:enchantments",
                 "value": [{
+                    "enchantments": "minecraft:swift_sneak"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/leggings/swift_sneak" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
                     "enchantments": "minecraft:mending"
                 }],
                 "on_true": { "type": "model", "model": "minecraft:item/armor/mending" },
