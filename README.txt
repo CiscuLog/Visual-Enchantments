@@ -1,4 +1,13 @@
-COMPATIBLE GAME VERSIONS: 1.21.5 to 1.21.6
+COMPATIBLE GAME VERSIONS: 1.21.5 to 1.21.9
+
+
+Changes in VisualEnchantments 5.0.3 (17/09/2025)
++ Updated to 1.21.9
++ Added enchanted copper gear
++ Added enchanted carved pumpkins
++ Added enchanted saddles
++ Added Vanishing on all axes back
++ Added Vanishing shields
 
 Changes in VisualEnchantments 5.0.2 (29/05/2025)
 + Added 1.21.6 compatibility

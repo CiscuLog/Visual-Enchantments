@@ -1,0 +1,109 @@
+{
+    "hand_animation_on_swap": false,
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:unbreaking"
+                }],
+                "on_true": { "type": "model", "model": "item/axe/unbreaking" },
+                "on_false": { "type": "model", "model": "item/axe/handle" }
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "sharpness"}],
+                "on_true": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "vanishing_curse"}],
+                    "on_false": {"type": "model","model": "item/axe/sharpness/copper_axe"},
+                    "on_true": {"type": "model","model": "item/axe/sharpness/vanishing/copper_axe"}
+                },
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "smite"}],
+                    "on_true": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "vanishing_curse"}],
+                        "on_false": {"type": "model","model": "item/axe/smite/copper_axe"},
+                        "on_true": {"type": "model","model": "item/axe/smite/vanishing/copper_axe"}
+                    },
+                    "on_false": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "bane_of_arthropods"}],
+                        "on_true": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "vanishing_curse"}],
+                            "on_false": {"type": "model","model": "item/axe/bane/copper_axe"},
+                            "on_true": {"type": "model","model": "item/axe/bane/vanishing/copper_axe"}
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "vanishing_curse"}],
+                            "on_false": {"type": "model","model": "item/axe/base/copper_axe"},
+                            "on_true": {"type": "model","model": "item/axe/vanishing/copper_axe"}
+                        }
+                    }
+                }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:efficiency"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/axe/efficiency" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:silk_touch"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/axe/silk_touch" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:fortune"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/axe/fortune" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:mending"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/axe/mending" },
+                "on_false": { "type": "empty" }
+            }
+        ]
+    }
+    
+}

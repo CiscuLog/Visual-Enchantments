@@ -1,0 +1,6 @@
+{
+	"parent": "item/32x_item_flat",
+	"textures": {
+		"layer0": "item/sword/fire_green"
+	}
+}

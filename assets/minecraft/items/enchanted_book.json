@@ -6,17 +6,17 @@
                 "type": "condition",
                 "property": "component",
                 "predicate": "stored_enchantments",
-                "value": [{"enchantments": "mending"}],
+                "value": [{"enchantments": "fire_aspect"}],
                 "on_false": {"type": "empty"},
-                "on_true": {"type": "model","model": "item/enchanted_book/mending"}
+                "on_true": {"type": "model","model": "item/enchanted_book/fire_aspect"}
             },
             {
                 "type": "condition",
                 "property": "component",
                 "predicate": "stored_enchantments",
-                "value": [{"enchantments": "fire_aspect"}],
+                "value": [{"enchantments": "mending"}],
                 "on_false": {"type": "empty"},
-                "on_true": {"type": "model","model": "item/enchanted_book/fire_aspect"}
+                "on_true": {"type": "model","model": "item/enchanted_book/mending"}
             },
             {
                 "type": "condition",

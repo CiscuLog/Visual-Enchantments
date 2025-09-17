@@ -1,0 +1,193 @@
+{
+    "hand_animation_on_swap": false,
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "vanishing_curse"}],
+                "on_true": {
+                    "type": "model",
+                    "model": "item/armor/chestplate/vanishing/copper_chestplate"
+                },
+                "on_false": {
+                    "type": "model",
+                    "model": "item/copper_chestplate"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:unbreaking"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/chestplate/unbreaking" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "has_component",
+                "component": "trim",
+                "on_true": {
+                    "type": "minecraft:select",
+                    "cases": [
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_quartz_trim"
+                            },
+                            "when": ["quartz"]
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_iron_trim"
+                            },
+                            "when": "minecraft:iron"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_netherite_trim"
+                            },
+                            "when": "minecraft:netherite"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_redstone_trim"
+                            },
+                            "when": "minecraft:redstone"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_diamond_trim"
+                            },
+                            "when": "minecraft:diamond"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_gold_trim"
+                            },
+                            "when": "minecraft:gold"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_emerald_trim"
+                            },
+                            "when": "minecraft:emerald"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_copper_trim"
+                            },
+                            "when": "minecraft:copper"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_lapis_trim"
+                            },
+                            "when": "minecraft:lapis"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_amethyst_trim"
+                            },
+                            "when": "minecraft:amethyst"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/chestplate_resin_trim"
+                            },
+                            "when": "minecraft:resin"
+                        }
+                    ],
+                    "property": "trim_material",
+                    "fallback": {"type": "empty"}
+                },
+                "on_false": {"type": "empty"}
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:blast_protection"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/chestplate/blast_protection" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:fire_protection"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/chestplate/fire_protection" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:projectile_protection"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/chestplate/projectile_protection" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:protection"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/chestplate/protection" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:thorns"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/chestplate/thorns" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:mending"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/mending" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:binding_curse"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/binding" },
+                "on_false": { "type": "empty" }
+            }
+        ]
+    }
+    
+}

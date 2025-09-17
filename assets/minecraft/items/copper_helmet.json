@@ -1,0 +1,213 @@
+{
+    "hand_animation_on_swap": false,
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "vanishing_curse"}],
+                "on_true": {
+                    "type": "model",
+                    "model": "item/armor/helmet/vanishing/copper_helmet"
+                },
+                "on_false": {
+                    "type": "model",
+                    "model": "item/copper_helmet"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "has_component",
+                "component": "trim",
+                "on_true": {
+                    "type": "minecraft:select",
+                    "cases": [
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_quartz_trim"
+                            },
+                            "when": ["quartz"]
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_iron_trim"
+                            },
+                            "when": "minecraft:iron"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_netherite_trim"
+                            },
+                            "when": "minecraft:netherite"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_redstone_trim"
+                            },
+                            "when": "minecraft:redstone"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_diamond_trim"
+                            },
+                            "when": "minecraft:diamond"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_gold_trim"
+                            },
+                            "when": "minecraft:gold"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_emerald_trim"
+                            },
+                            "when": "minecraft:emerald"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_copper_trim"
+                            },
+                            "when": "minecraft:copper"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_lapis_trim"
+                            },
+                            "when": "minecraft:lapis"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_amethyst_trim"
+                            },
+                            "when": "minecraft:amethyst"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/armor/helmet_resin_trim"
+                            },
+                            "when": "minecraft:resin"
+                        }
+                    ],
+                    "property": "trim_material",
+                    "fallback": {"type": "empty"}
+                },
+                "on_false": {"type": "empty"}
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:aqua_affinity"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/helmet/aqua_affinity" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:blast_protection"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/helmet/blast_protection" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:fire_protection"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/helmet/fire_protection" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:projectile_protection"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/helmet/projectile_protection" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:unbreaking"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/helmet/unbreaking" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:protection"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/helmet/protection" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:respiration"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/helmet/respiration" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:thorns"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/helmet/thorns" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:mending"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/mending" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:binding_curse"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/armor/binding" },
+                "on_false": { "type": "empty" }
+            }
+        ]
+    }
+    
+}

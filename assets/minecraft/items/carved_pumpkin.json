@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "model",
+                "model": "block/carved_pumpkin"
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "vanishing_curse"}],
+                "on_true": {"type": "model","model": "item/pumpkin/vanishing"},
+                "on_false": {"type": "empty"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "binding_curse"}],
+                "on_true": {"type": "model","model": "item/pumpkin/binding"},
+                "on_false": {"type": "empty"}
+            }
+        ]
+    }
+}

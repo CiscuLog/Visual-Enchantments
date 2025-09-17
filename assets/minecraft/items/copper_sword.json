@@ -1,0 +1,184 @@
+{
+    "hand_animation_on_swap": false,
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:fire_aspect"
+                }],
+                "on_true": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "sweeping_edge"}],
+                    "on_true": {"type": "model","model": "item/sword/fire_aspect_green_big"},
+                    "on_false": {"type": "model","model": "minecraft:item/sword/fire_aspect_green"}
+                },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "sweeping_edge"}],
+                "on_true": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "bane_of_arthropods"}],
+                    "on_true": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "vanishing_curse"}],
+                        "on_true": {"type": "model","model": "item/sword/blade/sweeping/bane/vanishing/copper_sword"},
+                        "on_false": {"type": "model","model": "item/sword/blade/sweeping/bane/copper_sword"}
+                    },
+                    "on_false": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "sharpness"}],
+                        "on_true": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "vanishing_curse"}],
+                            "on_true": {"type": "model","model": "item/sword/blade/sweeping/sharpness/vanishing/copper_sword"},
+                            "on_false": {"type": "model","model": "item/sword/blade/sweeping/sharpness/copper_sword"}
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "smite"}],
+                            "on_true": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "enchantments",
+                                "value": [{"enchantments": "vanishing_curse"}],
+                                "on_true": {"type": "model","model": "item/sword/blade/sweeping/smite/vanishing/copper_sword"},
+                                "on_false": {"type": "model","model": "item/sword/blade/sweeping/smite/copper_sword"}
+                            },
+                            "on_false": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "enchantments",
+                                "value": [{"enchantments": "vanishing_curse"}],
+                                "on_true": {"type": "model","model": "item/sword/blade/sweeping/vanishing/copper_sword"},
+                                "on_false": {"type": "model","model": "item/sword/blade/sweeping/copper_sword"}
+                            }
+                        }
+                    }
+                },
+                "on_false": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "bane_of_arthropods"}],
+                    "on_true": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "vanishing_curse"}],
+                        "on_true": {"type": "model","model": "item/sword/blade/bane/vanishing/copper_sword"},
+                        "on_false": {"type": "model","model": "item/sword/blade/bane/copper_sword"}
+                    },
+                    "on_false": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "sharpness"}],
+                        "on_true": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "vanishing_curse"}],
+                            "on_true": {"type": "model","model": "item/sword/blade/sharpness/vanishing/copper_sword"},
+                            "on_false": {"type": "model","model": "item/sword/blade/sharpness/copper_sword"}
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "smite"}],
+                            "on_true": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "enchantments",
+                                "value": [{"enchantments": "vanishing_curse"}],
+                                "on_true": {"type": "model","model": "item/sword/blade/smite/vanishing/copper_sword"},
+                                "on_false": {"type": "model","model": "item/sword/blade/smite/copper_sword"}
+                            },
+                            "on_false": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "enchantments",
+                                "value": [{"enchantments": "vanishing_curse"}],
+                                "on_true": {"type": "model","model": "item/sword/blade/vanishing/copper_sword"},
+                                "on_false": {"type": "model","model": "item/sword/blade/copper_sword"}
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "type": "model",
+                "model": "item/sword/pummel/copper_sword"
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "knockback"}],
+                "on_true": {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "unbreaking"}],
+                    "on_true": {"type": "model","model": "item/sword/knockback_unbreaking"},
+                    "on_false": {"type": "model","model": "item/sword/knockback"}
+                },
+                "on_false": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "item/sword/hilt/copper_sword"
+                        },
+                        {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "unbreaking"}],
+                            "on_true": {"type": "model","model": "item/sword/unbreaking"},
+                            "on_false": {"type": "empty"}
+                        }
+                    ]
+
+                }
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "looting"}],
+                "on_true": {"type": "model","model": "item/sword/looting"},
+                "on_false": {"type": "empty"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "mending"}],
+                "on_true": {"type": "model","model": "item/sword/mending"},
+                "on_false": {"type": "empty"}
+            }
+        ]
+    },
+    "oversized_in_gui": true
+}

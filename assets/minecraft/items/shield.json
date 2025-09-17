@@ -6,25 +6,6 @@
         "type": "condition",
         "property": "component",
         "predicate": "enchantments",
-        "value": [{"enchantments": "mending"}],
-        "on_true": {
-          "type": "minecraft:condition",
-          "property": "minecraft:using_item",
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "item/shield/mending"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "item/shield/mending_blocking"
-          }
-        },
-        "on_false": {"type": "empty"}
-      },
-      {
-        "type": "condition",
-        "property": "component",
-        "predicate": "enchantments",
         "value": [{"enchantments": "unbreaking"}],
         "on_true": {
             "type": "minecraft:composite",
@@ -58,6 +39,44 @@
                 }
               }
             ]
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "vanishing_curse"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "item/shield/vanishing"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "item/shield/vanishing_blocking"
+          }
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "mending"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "item/shield/mending"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "item/shield/mending_blocking"
+          }
         },
         "on_false": {"type": "empty"}
       },

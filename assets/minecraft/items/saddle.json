@@ -1,0 +1,24 @@
+{
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "model",
+                "model": "item/saddle"
+            },
+            {
+                "type": "condition",
+                "property": "has_component",
+                "component": "enchantments",
+                "ignore_default": true,
+                "on_true": {
+                    "type": "model",
+                    "model": "item/saddle/enchanted"
+                },
+                "on_false": {
+                    "type": "empty"
+                }
+            }
+        ]
+    }
+}
