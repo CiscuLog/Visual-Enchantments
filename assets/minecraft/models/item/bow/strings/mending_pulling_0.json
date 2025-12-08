@@ -1,8 +1,7 @@
 {
 	"parent": "item/bow",
 	"textures": {
-		"0": "item/bow/strings/mending",
-		"particle": "item/bow/strings/mending"
+		"0": "item/bow/strings/mending"
 	},
 	"elements": [
 		{

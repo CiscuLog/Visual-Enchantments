@@ -1,0 +1,248 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+            "type": "composite",
+            "models": [
+                {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "bane_of_arthropods"}],
+                    "on_true": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "vanishing_curse"}],
+                        "on_true": { "type": "model", "model": "item/spear/bane/vanishing/netherite_spear" },
+                        "on_false": { "type": "model", "model": "item/spear/bane/netherite_spear" }
+                    },
+                    "on_false": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "sharpness"}],
+                        "on_true": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "vanishing_curse"}],
+                            "on_true": { "type": "model", "model": "item/spear/sharpness/vanishing/netherite_spear" },
+                            "on_false": { "type": "model", "model": "item/spear/sharpness/netherite_spear" }
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "smite"}],
+                            "on_true": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "enchantments",
+                                "value": [{"enchantments": "vanishing_curse"}],
+                                "on_true": { "type": "model", "model": "item/spear/smite/vanishing/netherite_spear" },
+                                "on_false": { "type": "model", "model": "item/spear/smite/netherite_spear" }
+                            },
+                            "on_false": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "enchantments",
+                                "value": [{"enchantments": "vanishing_curse"}],
+                                "on_true": { "type": "model", "model": "item/spear/base/vanishing/netherite_spear" },
+                                "on_false": { "type": "model", "model": "item/spear/base/netherite_spear" }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:enchantments",
+                    "value": [{
+                        "enchantments": "minecraft:unbreaking"
+                    }],
+                    "on_true": { "type": "model", "model": "minecraft:item/spear/unbreaking" },
+                    "on_false": { "type": "model", "model": "minecraft:item/spear/handle_netherite" }
+                },
+                {
+                    "type": "condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:enchantments",
+                    "value": [{
+                        "enchantments": "minecraft:knockback"
+                    }],
+                    "on_true": { "type": "model", "model": "minecraft:item/spear/knockback" },
+                    "on_false": { "type": "empty" }
+                },
+                {
+                    "type": "condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:enchantments",
+                    "value": [{
+                        "enchantments": "minecraft:looting"
+                    }],
+                    "on_true": { "type": "model", "model": "minecraft:item/spear/looting" },
+                    "on_false": { "type": "empty" }
+                },
+                {
+                    "type": "condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:enchantments",
+                    "value": [{
+                        "enchantments": "minecraft:lunge"
+                    }],
+                    "on_true": { "type": "model", "model": "minecraft:item/spear/lunge" },
+                    "on_false": { "type": "empty" }
+                },
+                {
+                    "type": "condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:enchantments",
+                    "value": [{
+                        "enchantments": "minecraft:mending"
+                    }],
+                    "on_true": { "type": "model", "model": "minecraft:item/spear/mending" },
+                    "on_false": { "type": "empty" }
+                },
+                {
+                    "type": "condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:enchantments",
+                    "value": [{
+                        "enchantments": "minecraft:fire_aspect"
+                    }],
+                    "on_true": { "type": "model", "model": "minecraft:item/spear/fire_aspect_blue" },
+                    "on_false": { "type": "empty" }
+                }
+            ]
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+        "type": "composite",
+        "models": [
+            {
+                    "type": "condition",
+                    "property": "component",
+                    "predicate": "enchantments",
+                    "value": [{"enchantments": "bane_of_arthropods"}],
+                    "on_true": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "vanishing_curse"}],
+                        "on_true": { "type": "model", "model": "item/spear/bane/vanishing/netherite_spear_in_hand" },
+                        "on_false": { "type": "model", "model": "item/spear/bane/netherite_spear_in_hand" }
+                    },
+                    "on_false": {
+                        "type": "condition",
+                        "property": "component",
+                        "predicate": "enchantments",
+                        "value": [{"enchantments": "sharpness"}],
+                        "on_true": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "vanishing_curse"}],
+                            "on_true": { "type": "model", "model": "item/spear/sharpness/vanishing/netherite_spear_in_hand" },
+                            "on_false": { "type": "model", "model": "item/spear/sharpness/netherite_spear_in_hand" }
+                        },
+                        "on_false": {
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "enchantments",
+                            "value": [{"enchantments": "smite"}],
+                            "on_true": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "enchantments",
+                                "value": [{"enchantments": "vanishing_curse"}],
+                                "on_true": { "type": "model", "model": "item/spear/smite/vanishing/netherite_spear_in_hand" },
+                                "on_false": { "type": "model", "model": "item/spear/smite/netherite_spear_in_hand" }
+                            },
+                            "on_false": {
+                                "type": "condition",
+                                "property": "component",
+                                "predicate": "enchantments",
+                                "value": [{"enchantments": "vanishing_curse"}],
+                                "on_true": { "type": "model", "model": "item/spear/base/vanishing/netherite_spear_in_hand" },
+                                "on_false": { "type": "model", "model": "item/spear/base/netherite_spear_in_hand" }
+                            }
+                        }
+                    }
+                },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:unbreaking"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/spear/unbreaking_in_hand" },
+                "on_false": { "type": "model", "model": "minecraft:item/spear/handle_netherite_in_hand" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:knockback"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/spear/knockback_in_hand" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:looting"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/spear/looting_in_hand" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:lunge"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/spear/lunge_in_hand" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:mending"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/spear/mending_in_hand" },
+                "on_false": { "type": "empty" }
+            },
+            {
+                "type": "condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:enchantments",
+                "value": [{
+                    "enchantments": "minecraft:fire_aspect"
+                }],
+                "on_true": { "type": "model", "model": "minecraft:item/spear/fire_aspect_in_hand_blue" },
+                "on_false": { "type": "empty" }
+            }
+        ]
+    },
+    "property": "minecraft:display_context"
+  },
+  "swap_animation_scale": 1.9,
+  "oversized_in_gui": true
+}

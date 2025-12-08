@@ -26,6 +26,30 @@
             },
             {
                 "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "mending"}],
+                "on_true": {
+                    "type": "composite",
+                    "models": [
+                        {"type": "model", "model": "item/fishing_rod/mending"},
+                        {
+                            "type": "condition",
+                            "property": "fishing_rod/cast",
+                            "on_true": {"type": "empty"},
+                            "on_false": {"type": "model","model": "item/fishing_rod/mending_bait"}
+                        }
+                    ]
+                },
+                "on_false": {
+                    "type": "condition",
+                    "property": "fishing_rod/cast",
+                    "on_true": {"type": "empty"},
+                    "on_false": {"type": "model","model": "item/fishing_rod/bait"}
+                }
+            },
+            {
+                "type": "condition",
                 "property": "fishing_rod/cast",
                 "on_true": {"type": "empty"},
                 "on_false": {
@@ -48,14 +72,6 @@
                     "on_true": {"type": "model", "model": "item/fishing_rod/lure"},
                     "on_false": {"type": "model", "model": "item/fishing_rod/lure_off"}
                 },
-                "on_false": {"type": "empty"}
-            },
-            {
-                "type": "condition",
-                "property": "component",
-                "predicate": "enchantments",
-                "value": [{"enchantments": "mending"}],
-                "on_true": {"type": "model", "model": "item/fishing_rod/mending"},
                 "on_false": {"type": "empty"}
             }
         ]

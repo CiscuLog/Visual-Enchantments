@@ -92,7 +92,8 @@
             "gui",
             "ground",
             "fixed",
-            "head"
+            "head",
+            "on_shelf"
           ]
         }
       ],

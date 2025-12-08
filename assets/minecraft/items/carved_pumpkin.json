@@ -4,7 +4,7 @@
         "models": [
             {
                 "type": "model",
-                "model": "block/carved_pumpkin"
+                "model": "item/pumpkin/base"
             },
             {
                 "type": "condition",
@@ -23,5 +23,6 @@
                 "on_false": {"type": "empty"}
             }
         ]
-    }
+    },
+    "hand_animation_on_swap": true
 }

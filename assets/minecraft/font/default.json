@@ -377,6 +377,15 @@
 			"chars": [
 				"\uE687"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/lunge.png",
+			"ascent": 9,
+			"height": 10,
+			"chars": [
+				"\uE688"
+			]
 		}
 	]
 }

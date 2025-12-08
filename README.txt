@@ -1,5 +1,11 @@
-COMPATIBLE GAME VERSIONS: 1.21.5 to 1.21.9
+COMPATIBLE GAME VERSIONS: 1.21.11
 
+Changes in VisualEnchantments 5.0.4 (09/11/2025)
++ Updated to 1.21.11
++ Added Enchanted Spears
++ Added Lunge enchantment
++ Changed mending on fishing rods is now displayed on the string
++ Fixed some models were not displaying on shelves
 
 Changes in VisualEnchantments 5.0.3 (17/09/2025)
 + Updated to 1.21.9

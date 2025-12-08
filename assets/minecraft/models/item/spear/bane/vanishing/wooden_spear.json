@@ -1,0 +1,6 @@
+{
+    "parent": "item/iron_spear",
+    "textures": {
+        "layer0": "item/spear/bane/vanishing/wooden_spear"
+    }
+}

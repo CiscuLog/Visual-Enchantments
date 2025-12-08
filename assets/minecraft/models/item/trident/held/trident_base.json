@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"0": "entity/trident"
+		"0": "entity/trident",
+		"particle": "#0"
 	},
 	"elements": [
 		{

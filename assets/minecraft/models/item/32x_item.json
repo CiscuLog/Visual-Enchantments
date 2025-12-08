@@ -42,6 +42,11 @@
 			"rotation": [0, 180, 0],
 			"translation": [-8, 8, 0],
 			"scale": [2, 2, 1]
+		},
+		"on_shelf": {
+			"rotation": [0,0.01,0],
+			"translation": [8,17,0],
+			"scale": [2,2,1]
 		}
 	}
 }

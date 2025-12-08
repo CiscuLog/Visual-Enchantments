@@ -1,5 +1,4 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
 	"parent": "item/trident/held_throwing/trident_base",
 	"texture_size": [8, 8],
 	"textures": {

@@ -1,0 +1,6 @@
+{
+    "parent": "item/iron_spear_in_hand",
+    "textures": {
+        "layer0": "item/spear/smite/netherite_spear_in_hand"
+    }
+}

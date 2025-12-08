@@ -1,8 +1,7 @@
 {
 	"parent": "item/crossbow",
 	"textures": {
-		"0": "item/crossbow/mending",
-		"particle": "item/crossbow/mending"
+		"0": "item/crossbow/mending"
 	},
 	"elements": [
 		{

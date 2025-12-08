@@ -1,9 +1,7 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
 	"parent": "item/trident_in_hand",
 	"textures": {
-		"1": "item/trident/held/loyalty",
-		"particle": "item/trident/held/loyalty"
+		"1": "item/trident/held/loyalty"
 	},
 	"elements": [
 		{

@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"layer0": "item/blank"
+		"layer0": "item/blank",
+		"particle": "#layer0"
 	},
 	"elements": [
 		{
@@ -44,6 +45,11 @@
 		},
 		"fixed": {
 			"rotation": [0, 180, 0]
+		},
+		"on_shelf": {
+			"rotation": [0,0.01,0],
+			"translation": [8,16,0],
+			"scale": [2,2,0.01]
 		}
 	}
 }

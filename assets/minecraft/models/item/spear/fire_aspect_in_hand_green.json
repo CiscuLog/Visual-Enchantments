@@ -1,0 +1,6 @@
+{
+	"parent": "item/spear/fire_aspect_in_hand",
+	"textures": {
+		"layer0": "item/spear/fire_in_hand_green"
+	}
+}

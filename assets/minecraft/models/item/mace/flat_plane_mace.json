@@ -19,6 +19,11 @@
     "firstperson_lefthand": {
         "rotation": [ 0, 90, -25 ],
         "translation": [ 0, 3, 0.8 ]
+    },
+    "on_shelf": {
+        "rotation": [0,0.01,0],
+        "translation": [0,0,0],
+        "scale": [1,1,1]
     }
     }
 }

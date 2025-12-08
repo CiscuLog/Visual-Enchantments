@@ -1,5 +1,4 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
 	"parent": "item/trident_in_hand",
 	"texture_size": [8, 8],
 	"textures": {

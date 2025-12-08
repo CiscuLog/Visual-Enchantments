@@ -1,8 +1,7 @@
 {
 	"parent": "item/trident/held_throwing/trident_base",
 	"textures": {
-		"1": "item/trident/held/loyalty",
-		"particle": "item/trident/held/loyalty"
+		"1": "item/trident/held/loyalty"
 	},
 	"elements": [
 		{

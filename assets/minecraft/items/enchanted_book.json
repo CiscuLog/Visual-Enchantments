@@ -314,7 +314,14 @@
                         "predicate": "stored_enchantments",
                         "value": [{"enchantments": "breach"}],
                         "on_true": {"type": "model","model": "item/enchanted_book/breach"},
-                        "on_false": {"type": "empty"}
+                        "on_false": {                        
+                            "type": "condition",
+                            "property": "component",
+                            "predicate": "stored_enchantments",
+                            "value": [{"enchantments": "lunge"}],
+                            "on_true": {"type": "model","model": "item/enchanted_book/lunge"},
+                            "on_false": {"type": "empty"}
+                        }
                     }
                 }
             },

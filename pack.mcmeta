@@ -1,9 +1,8 @@
 {
    "pack": {
-      "pack_format": 68,
-      "supported_formats": {"min_inclusive":55, "max_inclusive": 68 },
-      "min_format": 55,
-      "max_format": [68,1],
+      "pack_format":75,
+      "min_format": 75,
+      "max_format": 75,
       "description": "A texture Pack by CiscuLog"
    }
 }
