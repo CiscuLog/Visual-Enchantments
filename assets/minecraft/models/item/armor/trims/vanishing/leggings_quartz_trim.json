@@ -1,0 +1,7 @@
+{
+    "parent": "item/iron_leggings",
+    "textures": {
+        "layer0": "item/blank",
+        "layer1": "trims/items/vanishing/leggings_trim_quartz"
+    }
+}

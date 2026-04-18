@@ -1,6 +1,12 @@
-COMPATIBLE GAME VERSIONS: 1.21.11
+COMPATIBLE GAME VERSIONS: 26.1
 
-Changes in VisualEnchantments 5.0.4 (09/11/2025)
+Changes in VisualEnchantments 5.0.5 (18/04/2026)
++ Changed trims on chestplates with curse of vanishing now match the chestplate shape
++ Changed trims on leggings with curse of vanishing now match the legging's cracks
++ Changed Unbreaking, Protection, Fire Protection and Projectile Protection on vanishing chestplates
++ Fixed shields model was rendering flipped
+
+Changes in VisualEnchantments 5.0.4 (08/11/2025)
 + Updated to 1.21.11
 + Added Enchanted Spears
 + Added Lunge enchantment
